@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(139, 139, 139, 0.08);
+  border: 1px solid #cccccc20;
+  border-radius: 4px;
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 4em;
+  a {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  span {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    color: mediumslateblue;
+    margin-left: -3px;
+  }
+}
