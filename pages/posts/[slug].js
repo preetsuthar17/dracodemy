@@ -17,7 +17,6 @@ import { supabase } from "@/src/utils/supabaseClient";
 import { useRouter } from "next/router";
 
 const Layout = dynamic(() => import("@/src/components/Layout"));
-const Navbar = dynamic(() => import("@/src/components/navbar"));
 const Footer = dynamic(() => import("@/src/components/footer"));
 
 import hljs from "highlight.js/lib/core";
@@ -203,7 +202,6 @@ export default function Post({
         </Head>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></Script>
         <Script async src="https://js.stripe.com/v3/buy-button.js"></Script>
-        <Navbar />
         <>
           <article id="post-top" className="container">
             <h1 className="title">{post.frontmatter.title}</h1>

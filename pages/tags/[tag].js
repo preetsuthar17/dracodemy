@@ -5,9 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 import { motion } from "framer-motion";
 import Head from "next/head";
-import { gsap } from "gsap";
 
-import Navbar from "../../src/components/navbar";
 import Footer from "../../src/components/footer";
 
 import getFirstFewLines from "@/src/utils/functions/getFirstFewLines";
@@ -70,7 +68,6 @@ const Tag = ({ blogs }) => {
         <meta name="twitter:title" content={tag} />
         <meta name="subject" content="web development" />
       </Head>
-      <Navbar />
       <div id="blog-title" className="blog-div">
         <motion.div
           initial={{ opacity: 1, translateX: -100 }}
