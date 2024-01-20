@@ -149,8 +149,34 @@ export default function Home({ posts, tags }) {
                 </div>
               </div>
             </motion.div>
-            {/* <div className="styled-hr"></div> */}
-            {/* <div className="blog-container">
+            <div className="showcase_tutorials">
+              <Link href="/tags/DSA%20Tutorial">
+                <div className="showcase_tut_cards DSA_tut_card">
+                  <div className="title">
+                    <p>Data Structures & Algorithms</p>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/tags/Python%20Tutorial">
+                <div className="showcase_tut_cards Python_tut_card">
+                  <div className="title">
+                    <p>Python tutorial</p>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/tags/RDBMS%20Tutorial">
+                <div className="showcase_tut_cards RDBMS_tut_card">
+                  <div className="title">
+                    <p>Relational database management system</p>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div className="blogs-container-heading">
+              <h2>All articles</h2>
+            </div>
+            <div className="blog-container">
+              <hr className="styled-hr"></hr>
               {visiblePosts.length === 0 ? (
                 <p
                   style={{
@@ -211,8 +237,8 @@ export default function Home({ posts, tags }) {
                   </div>
                 ))
               )}
-            </div> */}
-            {/* <div
+            </div>
+            <div
               className="lazy-load-more-button"
               style={{
                 display: "flex",
@@ -238,7 +264,7 @@ export default function Home({ posts, tags }) {
                   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
                 </svg>
               </Link>
-            </div> */}
+            </div>
           </div>
           <Footer />
         </>

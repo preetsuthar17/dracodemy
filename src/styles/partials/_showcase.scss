@@ -9,4 +9,57 @@
   }
 }
 
-
+.showcase_tutorials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  .DSA_tut_card {
+    background-color: #d00000;
+    width: 17rem;
+    height: 9rem;
+    border: 1px solid red;
+    p {
+      color: white;
+    }
+  }
+  .Python_tut_card {
+    background-color: #3f88c5;
+    width: 17rem;
+    height: 9rem;
+    border: 1px solid rgb(30, 150, 255);
+    p {
+      color: black;
+    }
+  }
+  .RDBMS_tut_card {
+    background-color: #ffba08;
+    border: 1px solid yellow;
+    width: 17rem;
+    height: 9rem;
+    p {
+      color: black;
+    }
+  }
+  .showcase_tut_cards {
+    border-radius: 10px;
+    height: 9rem;
+    width: 17rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all ease;
+    &:hover {
+      transform: translateY(-2px);
+    }
+    p {
+      font-size: 20px;
+      font-weight: 700;
+      bottom: 20px;
+      left: 20px;
+      position: absolute;
+      font-family: "poppins";
+    }
+  }
+}

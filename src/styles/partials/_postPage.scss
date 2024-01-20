@@ -215,6 +215,9 @@ $background-color_1: #180d23;
   word-wrap: break-word;
   cursor: auto !important;
   --scale: 1;
+  ul {
+    list-style: none !important;
+  }
   mask-image: linear-gradient(
     360deg,
     rgba(255, 255, 255, 0) calc(var(--scale) * -10%),
@@ -252,12 +255,6 @@ $background-color_1: #180d23;
     }
   }
 
-  ul {
-    margin-left: 20px;
-  }
-  ol {
-    margin-left: 20px;
-  }
   li {
     margin-bottom: 10px;
   }
@@ -381,39 +378,28 @@ blockquote {
     transition: background-color 0.2s ease-out !important;
   }
   ul {
-    li {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-    li::before {
-      content: "○";
-      color: #17b6ff;
-      font-size: 11px;
-    }
-    padding: 1rem;
-    list-style: disc;
-    border-radius: 0px 0 8px 8px;
-    transform: translateY(-6px);
+    padding: 0.8rem;
     display: flex;
-    background-color: #121212;
     flex-direction: column;
-    gap: 0.7rem;
   }
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s ease-out !important;
-  }
-
-  .accordion-items {
+  li {
+    display: flex;
+    align-items: center;
     a {
       color: #17b6ff;
       font-size: 15px;
       text-decoration: none;
     }
+  }
+  .open-accordion {
+    transform: translateY(-6px);
+    background-color: #121212;
+    border-radius: 0 0 8px 8px;
+  }
+  .panel {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out !important;
   }
 }
 .panel.open {
