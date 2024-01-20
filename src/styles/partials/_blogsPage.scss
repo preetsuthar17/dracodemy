@@ -141,7 +141,7 @@ $color_3: #aaaab5;
   gap: 1rem;
   justify-content: center;
   width: 90%;
-  margin: auto;
+  margin: 3rem auto;
 }
 
 .blog-container > div {
@@ -246,8 +246,6 @@ $color_3: #aaaab5;
     rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
   border: 1px solid #cccccc16;
   padding: 0.8rem 0.9rem;
-  margin-top: 0.7rem;
-  margin-right: 0.7rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -278,8 +276,19 @@ $color_3: #aaaab5;
 .tags-container {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
+
+  margin: 2rem 0 3rem 0;
+  gap: 10px;
   a {
     flex-grow: 1;
   }
+}
+
+.blogs-container-heading {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 9rem;
+  margin-bottom: -3rem;
 }

@@ -341,7 +341,7 @@ export default function Post({
                 className={`accordion ${isAccordionActive("") ? "active" : ""}`}
                 onClick={() => handleAccordionClick("")}
               >
-                Blogs with {post.frontmatter.tags.join(", ")} tag(s)
+                Table of content
                 <p>{` ${isAccordionActive("") ? "▲" : "▼ "}`}</p>
               </div>
               <AnimatePresence>
@@ -350,60 +350,30 @@ export default function Post({
                     initial="collapsed"
                     animate="open"
                     exit="collapsed"
+                    className="open-accordion"
                     variants={{
                       open: { opacity: 1, height: "auto" },
                       collapsed: { opacity: 0, height: 0 },
                     }}
                   >
-                    {sortedSimilarTagArticles.length > 0 ? (
-                      <ul>
-                        {sortedSimilarTagArticles.map((article) => (
-                          <li key={article.frontmatter.id}>
-                            <div className="accordion-items">
-                              <motion.div
-                                initial="collapsed"
-                                animate={
-                                  isAccordionActive(article.frontmatter.id)
-                                    ? "open"
-                                    : "collapsed"
-                                }
-                                variants={{
-                                  open: { opacity: 1, height: "auto" },
-                                }}
-                              >
-                                <Link href={`/posts/${article.slug}`}>
-                                  {article.frontmatter.title}
-                                </Link>
-                                {isAccordionActive(article.frontmatter.id) && (
-                                  <div className="accordion-content"></div>
-                                )}
-                              </motion.div>
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <ul>
+                    {toc.map((item, index) => (
+                      <ul key={index}>
                         <li>
-                          <div className="accordion-items">
-                            <motion.div
-                              initial="collapsed"
-                              variants={{
-                                open: { opacity: 1, height: "auto" },
-                              }}
-                            >
-                              <p
-                                style={{
-                                  color: "#aaa",
-                                }}
-                              >
-                                No blogs found
-                              </p>
-                            </motion.div>
-                          </div>
+                          <Link href={`#${item.slug}`}>{item.text}</Link>
+                          {item.children.length > 0 && (
+                            <ul>
+                              {item.children.map((child, childIndex) => (
+                                <li key={childIndex}>
+                                  <Link href={`#${child.slug}`}>
+                                    {child.text}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
                         </li>
                       </ul>
-                    )}
+                    ))}
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -451,23 +421,34 @@ export default function Post({
             </div>
             {toc.length > 0 && (
               <div className="tableOfContent" style={{ paddingBottom: "2rem" }}>
-                <h2>On this page</h2>
-                <ul>
-                  {toc.map((item, index) => (
-                    <li key={index}>
-                      <Link href={`#${item.slug}`}>{item.text}</Link>
-                      {item.children.length > 0 && (
-                        <ul>
-                          {item.children.map((child, childIndex) => (
-                            <li key={childIndex}>
-                              <Link href={`#${child.slug}`}>{child.text}</Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </ul>
+                <>
+                  <ul>
+                    {sortedSimilarTagArticles.map((article) => (
+                      <li key={article.frontmatter.id}>
+                        <div className="accordion-items">
+                          <motion.div
+                            initial="collapsed"
+                            animate={
+                              isAccordionActive(article.frontmatter.id)
+                                ? "open"
+                                : "collapsed"
+                            }
+                            variants={{
+                              open: { opacity: 1, height: "auto" },
+                            }}
+                          >
+                            <Link href={`/posts/${article.slug}`}>
+                              {article.frontmatter.title}
+                            </Link>
+                            {isAccordionActive(article.frontmatter.id) && (
+                              <div className="accordion-content"></div>
+                            )}
+                          </motion.div>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </>
               </div>
             )}
             <div
