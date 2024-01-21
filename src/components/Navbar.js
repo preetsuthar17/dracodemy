@@ -6,8 +6,22 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar_brand">
-          <Image src={dracodemy_logo} width={50} alt="Dracodemy" />
+        <div
+          className="navbar_brand"
+     
+        >
+          <Link href="/">
+            <Image src={dracodemy_logo} width={50} alt="Dracodemy" />
+            <span
+              style={
+                {
+                  // opacity: "0",
+                }
+              }
+            >
+              Home
+            </span>
+          </Link>
         </div>
         <div className="navbar_links">
           <ul>

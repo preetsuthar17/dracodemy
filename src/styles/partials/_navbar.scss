@@ -9,8 +9,13 @@
   margin: 0rem 0 1rem 0;
   border-radius: 0 0 20px 20px;
   .navbar_brand {
+    span {
+      position: absolute;
+      opacity: 0;
+    }
     img {
-      padding: 1rem;
+      // padding: 1rem;
+      margin: 1rem;
     }
   }
   .navbar_links {
