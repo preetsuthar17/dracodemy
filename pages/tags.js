@@ -36,7 +36,12 @@ const Tags = ({ tags }) => {
         <meta name="twitter:title" content="Tags | Dracodemy 🚀" />
         <meta name="subject" content="coding tutorials" />
       </Head>
-      <div className="project-div">
+      <div
+        className="project-div"
+        style={{
+          minHeight: "60vh",
+        }}
+      >
         <motion.div
           initial={{ opacity: 1, translateX: -100 }}
           animate={{ opacity: 1, translateX: 0 }}
