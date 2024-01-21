@@ -179,26 +179,34 @@ export default function Post({
     >
       <Layout>
         <Head>
-          <title>{post.frontmatter.title.toString()}</title>
-          <meta name="robots" content="all" />
-          <meta name="theme-color" content="#1c9cfc" />
+          <title>{post.frontmatter.title.toString()} - Dracodemy 🚀</title>
+          <meta
+            property="description"
+            content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
+          />
+          <meta name="theme-color" content="#b7acf6" />
           <meta httpEquiv="content-language" content="en" />
           <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
-          <meta property="og:title" content={post.frontmatter.title} />
-          <meta property="og:url" content="https://preetsuthar.me" />
+          <meta property="og:title" content="Dracodemy" />
+          <meta
+            property="og:description"
+            content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
+          />
+          <meta property="og:url" content="https://dracodemy.vercel.app" />
           <meta property="og:type" content="website" />
           <meta
             name="keywords"
-            content="Preet Suthar, Front-end Developer, Portfolio, Blog"
-          />{" "}
-          <meta name="author" content="Preet Suthar" />
+            content="Preet Suthar, Front-end Developer, Portfolio, Blog, web development, preet, front end development, front-end developer, coding tutorials, programming tutorials, coding notes, Dracodemy"
+          />
+          <meta name="author" content="Dracodemy" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <meta name="twitter:title" content={post.frontmatter.title} />
-          <meta name="subject" content="web development" />
-          <link rel="canonical" href="https://preetsuthar.me/posts" />
+          <meta name="twitter:title" content="404 | Dracodemy 🚀" />
+          <meta name="subject" content="coding tutorials" />
+          <meta name="robots" content="noindex" />
+          <link rel="canonical" href="https://dracodemy.vercel.app" />
         </Head>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></Script>
         <Script async src="https://js.stripe.com/v3/buy-button.js"></Script>

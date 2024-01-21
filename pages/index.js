@@ -71,20 +71,27 @@ export default function Home({ posts, tags }) {
     >
       <Layout>
         <Head>
-          <title>Dracodemy</title>
+          <title>Dracodemy 🚀</title>
+          <meta
+            property="description"
+            content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
+          />
           <meta name="robots" content="all" />
-
-          <meta name="theme-color" content="#1c9cfc" />
+          <meta name="theme-color" content="#b7acf6" />
           <meta httpEquiv="content-language" content="en" />
           <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
           <meta property="og:title" content="Dracodemy" />
+          <meta
+            property="og:description"
+            content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
+          />
           <meta property="og:url" content="https://dracodemy.vercel.app" />
           <meta property="og:type" content="website" />
           <meta
             name="keywords"
-            content="Preet Suthar, Front-end Developer, Portfolio, Blog, web development, preet, front end development, front-end developer, coding tutorials, programming tutorials, coding notes"
+            content="Preet Suthar, Front-end Developer, Portfolio, Blog, web development, preet, front end development, front-end developer, coding tutorials, programming tutorials, coding notes, Dracodemy"
           />
-          <meta name="author" content="Preet Suthar" />
+          <meta name="author" content="Dracodemy" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
