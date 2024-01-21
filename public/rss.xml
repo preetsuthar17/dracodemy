@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>dracodemy.vercel.app</title>
-        <link>dracodemy.vercel.app</link>
+        <title>dracodemy.tech</title>
+        <link>dracodemy.tech</link>
         <description>Welcome to Dracodemy! A website to learn programming efficiently</description>
-        <lastBuildDate>Sun, 21 Jan 2024 04:08:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jan 2024 09:26:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <atom:link href="dracodemy.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="dracodemy.tech/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[1 - Fundamentals of Python - Python]]></title>
-            <link>https://dracodemy.vercel.app/posts/1---fundamentals-of-python---python</link>
-            <guid>https://dracodemy.vercel.app/posts/1---fundamentals-of-python---python</guid>
+            <link>https://dracodemy.tech/posts/1---fundamentals-of-python---python</link>
+            <guid>https://dracodemy.tech/posts/1---fundamentals-of-python---python</guid>
             <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Python
@@ -288,8 +288,8 @@ print(name)
         </item>
         <item>
             <title><![CDATA[1 - Introduction to Database System and SQL commands | RDBMS]]></title>
-            <link>https://dracodemy.vercel.app/posts/1---introduction-to-database-system-and-sql-commands-rdbms</link>
-            <guid>https://dracodemy.vercel.app/posts/1---introduction-to-database-system-and-sql-commands-rdbms</guid>
+            <link>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands-rdbms</link>
+            <guid>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands-rdbms</guid>
             <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Concepts and Definitions: Database and database systems and database environment
@@ -436,8 +436,8 @@ WhERE id = 3;
         </item>
         <item>
             <title><![CDATA[2 - Control Flow Structure - Python]]></title>
-            <link>https://dracodemy.vercel.app/posts/2---control-flow-structure---python</link>
-            <guid>https://dracodemy.vercel.app/posts/2---control-flow-structure---python</guid>
+            <link>https://dracodemy.tech/posts/2---control-flow-structure---python</link>
+            <guid>https://dracodemy.tech/posts/2---control-flow-structure---python</guid>
             <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Control Structures
@@ -843,8 +843,8 @@ match lang:
         </item>
         <item>
             <title><![CDATA[2 - SQL In built functions and Joins | RDBMS]]></title>
-            <link>https://dracodemy.vercel.app/posts/2---sql-in-built-functions-and-joins-rdbms</link>
-            <guid>https://dracodemy.vercel.app/posts/2---sql-in-built-functions-and-joins-rdbms</guid>
+            <link>https://dracodemy.tech/posts/2---sql-in-built-functions-and-joins-rdbms</link>
+            <guid>https://dracodemy.tech/posts/2---sql-in-built-functions-and-joins-rdbms</guid>
             <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Operators Arithmetic, Comparison, Logical, SQL functions-
@@ -1311,8 +1311,8 @@ match lang:
         </item>
         <item>
             <title><![CDATA[3 - Database Integrity Constraints & Objects | RDBMS]]></title>
-            <link>https://dracodemy.vercel.app/posts/3---database-integrity-constraints-objects-rdbms</link>
-            <guid>https://dracodemy.vercel.app/posts/3---database-integrity-constraints-objects-rdbms</guid>
+            <link>https://dracodemy.tech/posts/3---database-integrity-constraints-objects-rdbms</link>
+            <guid>https://dracodemy.tech/posts/3---database-integrity-constraints-objects-rdbms</guid>
             <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Domain Integrity constraints: Not null, Check
@@ -1575,8 +1575,8 @@ CREATE INDEX index_name ON table_name;
         </item>
         <item>
             <title><![CDATA[3 - List, Tuples, Sets and Dictionaries - Python]]></title>
-            <link>https://dracodemy.vercel.app/posts/3---list-tuples-sets-and-dictionaries---python</link>
-            <guid>https://dracodemy.vercel.app/posts/3---list-tuples-sets-and-dictionaries---python</guid>
+            <link>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries---python</link>
+            <guid>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries---python</guid>
             <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Lists and operations on Lists
@@ -1913,8 +1913,8 @@ new_dict = {
         </item>
         <item>
             <title><![CDATA[4 - Functions and Modules - Python]]></title>
-            <link>https://dracodemy.vercel.app/posts/4---functions-and-modules---python</link>
-            <guid>https://dracodemy.vercel.app/posts/4---functions-and-modules---python</guid>
+            <link>https://dracodemy.tech/posts/4---functions-and-modules---python</link>
+            <guid>https://dracodemy.tech/posts/4---functions-and-modules---python</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to python user defined function
@@ -2270,8 +2270,8 @@ print(matho.div(a,b))
         </item>
         <item>
             <title><![CDATA[5 - Normalization | RDBMS]]></title>
-            <link>https://dracodemy.vercel.app/posts/5---normalization-rdbms</link>
-            <guid>https://dracodemy.vercel.app/posts/5---normalization-rdbms</guid>
+            <link>https://dracodemy.tech/posts/5---normalization-rdbms</link>
+            <guid>https://dracodemy.tech/posts/5---normalization-rdbms</guid>
             <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Basics of Normalization
@@ -2346,8 +2346,8 @@ print(matho.div(a,b))
         </item>
         <item>
             <title><![CDATA[5 - String Processing and File Handling - Python]]></title>
-            <link>https://dracodemy.vercel.app/posts/5---string-processing-and-file-handling---python</link>
-            <guid>https://dracodemy.vercel.app/posts/5---string-processing-and-file-handling---python</guid>
+            <link>https://dracodemy.tech/posts/5---string-processing-and-file-handling---python</link>
+            <guid>https://dracodemy.tech/posts/5---string-processing-and-file-handling---python</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to String
@@ -2726,8 +2726,8 @@ print(list1[2])
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 1]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-1</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-1</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-1</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-1</guid>
             <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Data Structure
@@ -2818,8 +2818,8 @@ Let's see types of data structure without deep diving, into the basics.
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 10]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-10</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-10</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-10</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-10</guid>
             <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Stack and Queues
@@ -2902,8 +2902,8 @@ return()
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 11]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-11</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-11</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-11</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-11</guid>
             <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Queue
@@ -2981,8 +2981,8 @@ return()
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 12]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-12</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-12</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-12</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-12</guid>
             <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Revision of Pointers
@@ -3262,8 +3262,8 @@ free(ptr)
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 13]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-13</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-13</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-13</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-13</guid>
             <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 > Topics which are not mentioned in post: Conversion of General Tree to Binary Tree & Binary Tree Traversal: PreOrder, InOrder and PostOrder.
@@ -3369,8 +3369,8 @@ free(ptr)
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 2]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-2</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-2</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-2</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-2</guid>
             <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 In this lecture we're going to cover basic about Types of Data Structure.
@@ -3458,8 +3458,8 @@ There are many types of Data Structure but in this lesson we're going to talk ab
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 3]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-3</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-3</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-3</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-3</guid>
             <pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Let's talk about operations we can perform on data structures
@@ -3498,8 +3498,8 @@ Here operations basically means changing the existing data structure or creating
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 4]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-4</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-4</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-4</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-4</guid>
             <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Algorithm
@@ -3531,8 +3531,8 @@ Here operations basically means changing the existing data structure or creating
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 5]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-5</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-5</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-5</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-5</guid>
             <pubDate>Thu, 31 Aug 2023 18:30:00 GMT</pubDate>
             <description><![CDATA[
 ## Notation for Algorithm design
@@ -3610,8 +3610,8 @@ step 4: [Finish]
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 6]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-6</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-6</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-6</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-6</guid>
             <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Algorithm Analysis
@@ -3707,8 +3707,8 @@ step 4: [Finish]
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 7]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-7</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-7</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-7</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-7</guid>
             <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Arrays
@@ -3860,8 +3860,8 @@ int main(){
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 8]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-8</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-8</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-8</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-8</guid>
             <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Arrays Operations
@@ -3912,8 +3912,8 @@ Let's talk about operations that can be done on array in Data Structure.
         </item>
         <item>
             <title><![CDATA[Basics Data Structure & Algorithm - Lecture 9]]></title>
-            <link>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-9</link>
-            <guid>https://dracodemy.vercel.app/posts/basics-data-structure-algorithm---lecture-9</guid>
+            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-9</link>
+            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-9</guid>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Strings
@@ -4037,8 +4037,8 @@ _detailed information will be covered in upcoming lectures_
         </item>
         <item>
             <title><![CDATA[Important Topics of Object Oriented Programming]]></title>
-            <link>https://dracodemy.vercel.app/posts/important-topics-of-object-oriented-programming</link>
-            <guid>https://dracodemy.vercel.app/posts/important-topics-of-object-oriented-programming</guid>
+            <link>https://dracodemy.tech/posts/important-topics-of-object-oriented-programming</link>
+            <guid>https://dracodemy.tech/posts/important-topics-of-object-oriented-programming</guid>
             <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Difference between POP and OOP
@@ -4656,8 +4656,8 @@ this -> m = 10;
         </item>
         <item>
             <title><![CDATA[Must know Topics of Object Oriented Programming]]></title>
-            <link>https://dracodemy.vercel.app/posts/must-know-topics-of-object-oriented-programming</link>
-            <guid>https://dracodemy.vercel.app/posts/must-know-topics-of-object-oriented-programming</guid>
+            <link>https://dracodemy.tech/posts/must-know-topics-of-object-oriented-programming</link>
+            <guid>https://dracodemy.tech/posts/must-know-topics-of-object-oriented-programming</guid>
             <pubDate>Sat, 06 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Difference between POP and OOP

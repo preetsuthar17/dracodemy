@@ -194,7 +194,7 @@ export default function Post({
             property="og:description"
             content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
           />
-          <meta property="og:url" content="https://dracodemy.vercel.app" />
+          <meta property="og:url" content="https://dracodemy.tech" />
           <meta property="og:type" content="website" />
           <meta
             name="keywords"
@@ -208,7 +208,7 @@ export default function Post({
           <meta name="twitter:title" content="404 | Dracodemy 🚀" />
           <meta name="subject" content="coding tutorials" />
           <meta name="robots" content="noindex" />
-          <link rel="canonical" href="https://dracodemy.vercel.app" />
+          <link rel="canonical" href="https://dracodemy.tech" />
         </Head>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></Script>
         <Script async src="https://js.stripe.com/v3/buy-button.js"></Script>

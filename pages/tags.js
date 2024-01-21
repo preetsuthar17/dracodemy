@@ -26,7 +26,7 @@ const Tags = ({ tags }) => {
           property="og:description"
           content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
         />
-        <meta property="og:url" content="https://dracodemy.vercel.app" />
+        <meta property="og:url" content="https://dracodemy.tech" />
         <meta property="og:type" content="website" />
         <meta
           name="keywords"

@@ -91,7 +91,7 @@ function generateSitemap() {
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
     <url>
-      <loc>https://dracodemy.vercel.app</loc>
+      <loc>https://dracodemy.tech</loc>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -99,13 +99,13 @@ function generateSitemap() {
       ${dynamicPaths
         .map(
           (path) =>
-            `<url><loc>https://dracodemy.vercel.app${path}</loc><priority>1.0</priority><changefreq>daily</changefreq></url>`
+            `<url><loc>https://dracodemy.tech${path}</loc><priority>1.0</priority><changefreq>daily</changefreq></url>`
         )
         .join("")}
         ${tagPaths
           .map(
             (tagPath) =>
-              `<url><loc>https://dracodemy.vercel.app${tagPath}</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>`
+              `<url><loc>https://dracodemy.tech${tagPath}</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>`
           )
           .join("")}
   
@@ -123,15 +123,15 @@ function generateSitemap() {
 
 const generateRSSFeed = async () => {
   const feed = new RSS({
-    title: "dracodemy.vercel.app",
+    title: "dracodemy.tech",
     description:
       "Welcome to Dracodemy! A website to learn programming efficiently",
-    id: "dracodemy.vercel.app",
-    link: "dracodemy.vercel.app",
-    favicon: "dracodemy.vercel.app/favicon.ico",
+    id: "dracodemy.tech",
+    link: "dracodemy.tech",
+    favicon: "dracodemy.tech/favicon.ico",
     language: "en",
     feedLinks: {
-      rss: "dracodemy.vercel.app/rss.xml",
+      rss: "dracodemy.tech/rss.xml",
     },
   });
 
@@ -149,7 +149,7 @@ const generateRSSFeed = async () => {
       const { title, date } = frontMatterObject;
       const formattedDate = new Date(date);
       const slug = fileName.replace(/\.md$/, "");
-      const url = `https://dracodemy.vercel.app/posts/${slug}`;
+      const url = `https://dracodemy.tech/posts/${slug}`;
 
       feed.addItem({
         title,
