@@ -4,7 +4,9 @@
   color: #343237;
   margin-top: 9rem;
   align-items: center;
+  z-index: 9999 !important;
   background-color: #b7acf6;
+
   border-radius: 20px 20px 0 0;
   border-top: 3px solid rgba(124, 104, 238, 0.751);
   border-left: 3px solid rgba(124, 104, 238, 0.751);
@@ -42,8 +44,8 @@
     }
     .footer_icons {
       display: flex;
-      gap: 6px;
-      margin: 0;
+      gap: 9px;
+      margin: 0.2rem 0;
       align-items: center;
       a {
         padding: 0.5rem 0;

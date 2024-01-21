@@ -6,28 +6,34 @@ import email from "../utils/icons/email.svg";
 import discord from "../utils/icons/discord.svg";
 import twitter from "../utils/icons/twitter.svg";
 import rss from "../utils/icons/rss_logo.svg";
+import CustomTooltip2 from "./CustomTooltip2";
 
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
     <div>
-      <footer className="footer">
+      <footer
+        className="footer"
+        style={{
+          zIndex: "99999",
+          position: "relative",
+        }}
+      >
         <div className="footer_branding">
           <h4>Dracodemy</h4>
           <p>All rights reserved &copy; {year}</p>
-          <div
-            className="footer_icons"
-            style={{
-              zIndex: "9999",
-            }}
-          >
-            <Link target="_blank" href="https://discord.gg/b4tMBMgnPK">
-              <Image width={22} src={discord} alt="Discord Server"></Image>
-            </Link>
-            <Link target="_blank" href="/rss.xml">
-              <Image width={24} src={rss} alt="RSS feed"></Image>
-            </Link>
+          <div className="footer_icons">
+            <CustomTooltip2 text="discord">
+              <Link target="_blank" href="https://discord.gg/b4tMBMgnPK">
+                <Image width={22} src={discord} alt="Discord Server"></Image>
+              </Link>
+            </CustomTooltip2>
+            <CustomTooltip2 text="RSS">
+              <Link target="_blank" href="/rss.xml">
+                <Image width={24} src={rss} alt="RSS feed"></Image>
+              </Link>
+            </CustomTooltip2>
           </div>
           <hr />
         </div>
