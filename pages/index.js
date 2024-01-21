@@ -87,6 +87,7 @@ export default function Home({ posts, tags }) {
             content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
           />
           <meta property="og:url" content="https://dracodemy.vercel.app" />
+          <meta property="og:image" content="../public/favicon.ico" />
           <meta property="og:type" content="website" />
           <meta
             name="keywords"

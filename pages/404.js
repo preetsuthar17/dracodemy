@@ -24,7 +24,8 @@ export default function Custom404() {
           <meta name="theme-color" content="#b7acf6" />
           <meta httpEquiv="content-language" content="en" />
           <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
-          <meta property="og:title" content="Dracodemy" />
+          <meta property="og:title" content="Dracodemy" />{" "}
+          <meta property="og:image" content="../public/favicon.ico" />
           <meta
             property="og:description"
             content="Dracodemy is a learning website where you can learn so many basics topics of programming like DSA, Python, etc."
