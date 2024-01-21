@@ -54,7 +54,7 @@ export default function Post({
   const router = useRouter();
 
   const { slug } = router.query;
-  const editPageUrl = `https://github.com/preetsuthar17/preetsuthar.me/edit/main/articles/${slug}.md?plain=1`;
+  const editPageUrl = `https://github.com/preetsuthar17/dracodemy/edit/main/articles/${slug}.md?plain=1`;
 
   const toc = generateTableOfContents(post.content);
   const isAccordionActive = (articleId) => activeAccordion === articleId;
