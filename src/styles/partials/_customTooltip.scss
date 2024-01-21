@@ -28,7 +28,7 @@ $arrow-size: 8px;
   z-index: 99999 !important;
   padding: 0.5rem;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0;
   width: max-content;
   word-wrap: break-word;
@@ -86,8 +86,7 @@ $arrow-size: 8px;
 
 .tooltipText {
   display: block;
-  font-weight: 400;
-  font-size: 1rem;
+  font-size: 13px;
 }
 
 .tooltipDescription {
