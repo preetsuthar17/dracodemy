@@ -147,7 +147,7 @@ hr {
     backdrop-filter: blur(6px) !important;
     transition: 0.2s all ease-in-out;
     border-radius: 100%;
-    fill: #ababab75;
+    fill: #abababbe;
     &:hover {
       fill: #fff;
     }
@@ -165,10 +165,7 @@ hr {
     backdrop-filter: blur(6px) !important;
     transition: 0.2s all ease-in-out;
     border-radius: 100%;
-    fill: #ababab75;
-    &:hover {
-      fill: #fff;
-    }
+    fill: #fff;
   }
 }
 

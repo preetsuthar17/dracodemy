@@ -2,10 +2,11 @@
   h1 {
     font-size: 2.8rem;
     font-family: "Poppins";
-    margin-bottom: -1rem;
+    letter-spacing: -1.3px;
+    margin-bottom: -1.2rem;
   }
   p {
-    font-size: 14px;
+    font-size: 13.4px;
   }
 }
 
@@ -15,30 +16,30 @@
   gap: 1rem;
   flex-wrap: wrap;
   .DSA_tut_card {
-    background-color: #d00000;
+    background-color: #d0000070;
     width: 17rem;
     height: 9rem;
-    border: 1px solid red;
+    border: 2px solid rgba(255, 0, 0, 0.583);
     p {
       color: white;
     }
   }
   .Python_tut_card {
-    background-color: #3f88c5;
+    background-color: #3f89c570;
     width: 17rem;
     height: 9rem;
-    border: 1px solid rgb(30, 150, 255);
+    border: 2px solid rgba(0, 136, 255, 0.56);
     p {
-      color: black;
+      color: white;
     }
   }
   .RDBMS_tut_card {
-    background-color: #ffba08;
-    border: 1px solid yellow;
+    background-color: #ffba0870;
+    border: 2px solid rgba(255, 255, 0, 0.579);
     width: 17rem;
     height: 9rem;
     p {
-      color: black;
+      color: white;
     }
   }
   .showcase_tut_cards {
