@@ -8,6 +8,7 @@ import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 
 const Footer = dynamic(() => import("@/src/components/footer"));
+const Navbar = dynamic(() => import("@/src/components/Navbar"));
 import Layout from "@/src/components/Layout";
 
 export default function Home({ posts, tags }) {
@@ -99,7 +100,7 @@ export default function Home({ posts, tags }) {
           <meta name="twitter:title" content="Dracodemy" />
           <meta name="subject" content="coding tutorials" />
         </Head>
-
+        <Navbar />
         <>
           <div id="blog-title" className="blog-div">
             <motion.div
@@ -158,21 +159,21 @@ export default function Home({ posts, tags }) {
             </motion.div>
             <div className="showcase_tutorials">
               <Link href="/tags/DSA%20Tutorial">
-                <div className="showcase_tut_cards DSA_tut_card">
+                <div className="showcase_tut_cards noisy DSA_tut_card">
                   <div className="title">
                     <p>Data Structures & Algorithms</p>
                   </div>
                 </div>
               </Link>
               <Link href="/tags/Python%20Tutorial">
-                <div className="showcase_tut_cards Python_tut_card">
+                <div className="showcase_tut_cards noisy Python_tut_card">
                   <div className="title">
                     <p>Python tutorial</p>
                   </div>
                 </div>
               </Link>
               <Link href="/tags/RDBMS%20Tutorial">
-                <div className="showcase_tut_cards RDBMS_tut_card">
+                <div className="showcase_tut_cards noisy RDBMS_tut_card">
                   <div className="title">
                     <p>Relational database management system</p>
                   </div>
