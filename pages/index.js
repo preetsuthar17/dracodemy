@@ -183,6 +183,13 @@ export default function Home({ posts, tags }) {
                   </div>
                 </div>
               </Link>
+              <Link href="/tags/OS%20Tutorial">
+                <div className="showcase_tut_cards noisy OS_tut_card">
+                  <div className="title">
+                    <p>Operating System</p>
+                  </div>
+                </div>
+              </Link>
             </div>
             <div className="blogs-container-heading">
               <h2>All articles</h2>
