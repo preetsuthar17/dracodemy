@@ -4,15 +4,15 @@
         <title>dracodemy.tech</title>
         <link>dracodemy.tech</link>
         <description>Welcome to Dracodemy! A website to learn programming efficiently</description>
-        <lastBuildDate>Mon, 22 Jan 2024 11:18:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jan 2024 15:55:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="dracodemy.tech/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[1 - Fundamentals of Python | Python]]></title>
-            <link>https://dracodemy.tech/posts/1---fundamentals-of-python-python</link>
-            <guid>https://dracodemy.tech/posts/1---fundamentals-of-python-python</guid>
+            <title><![CDATA[1 - Fundamentals of Python]]></title>
+            <link>https://dracodemy.tech/posts/1---fundamentals-of-python</link>
+            <guid>https://dracodemy.tech/posts/1---fundamentals-of-python</guid>
             <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Python
@@ -287,9 +287,9 @@ print(name)
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[1 - Introduction to Data Structure | DSA]]></title>
-            <link>https://dracodemy.tech/posts/1---introduction-to-data-structure-dsa</link>
-            <guid>https://dracodemy.tech/posts/1---introduction-to-data-structure-dsa</guid>
+            <title><![CDATA[1 - Introduction to Data Structure]]></title>
+            <link>https://dracodemy.tech/posts/1---introduction-to-data-structure</link>
+            <guid>https://dracodemy.tech/posts/1---introduction-to-data-structure</guid>
             <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Data Structure
@@ -379,9 +379,9 @@ Let's see types of data structure without deep diving, into the basics.
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[1 - Introduction to Database System and SQL commands | RDBMS]]></title>
-            <link>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands-rdbms</link>
-            <guid>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands-rdbms</guid>
+            <title><![CDATA[1 - Introduction to Database System and SQL commands]]></title>
+            <link>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands</link>
+            <guid>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands</guid>
             <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Concepts and Definitions: Database and database systems and database environment
@@ -527,9 +527,74 @@ WhERE id = 3;
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[10 - Stack and Queues | DSA]]></title>
-            <link>https://dracodemy.tech/posts/10---stack-and-queues-dsa</link>
-            <guid>https://dracodemy.tech/posts/10---stack-and-queues-dsa</guid>
+            <title><![CDATA[1 - Overview and Types of Operating System]]></title>
+            <link>https://dracodemy.tech/posts/1---overview-and-types-of-operating-system</link>
+            <guid>https://dracodemy.tech/posts/1---overview-and-types-of-operating-system</guid>
+            <pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Overview of operating systems
+
+## Multiprogramming OS
+
+- Multiprogramming operating system is kind of operating system which can run multiple processes on a single thread CPU efficiently.
+- While multiprogramming OS can run multiple programming on single thread CPU but one program must execute before CPU loads another program.
+- When a program is being executed it’s also known as **Task** or **Process** or **Job.**
+- There are two types in multiprogramming OS,
+  - Multitasking Operating system.
+    - Multitasking operating system is where one, two or more programs are executed at same time.
+    - It happens because the operating system loads each program in the each memory at the same time.
+  - Multiuser Operating system.
+    - Multiuser Operating system works by providing multiple user access to single computer with powerful central computer terminal.
+- Advantages -
+  - It provides less response time.
+  - It can run multiple program at the same time.
+  - It can utilize CPU by reducing the ideal time to almost zero.
+  - Resources are utilized smartly.
+- Disadvantages -
+  - CPU scheduling is required.
+  - Memory management is required because all the programs are loaded into main memory.
+  - If job is large, it’ll take more wait to execute.
+
+## Time Sharing OS
+
+- Time sharing operating system is very efficient because this is how it works, It divides the computer time into slices and assigning each time slice to each user to each of them can use it turn by turn without having to wait for computer to get free.
+- It shares the time slices among user instead of giving all time to just single user and letting other wait to use until that single user it done with execution.
+- It provides time slices to each user so each can use without having to wait for one person to finish using or executing programs.
+- It is commonly used in modern operating system to make multitasking work even more efficient.
+- Advantages -
+  - It makes computer system more cost-efficient.
+  - Provides better user experience.
+  - Makes it more efficient to multitask.
+  - They provide better user interface.
+  - Allows multiple users to work at the same time.
+- Disadvantages -
+  - Not providing enough security as all the programs are divided into multiple chunks of memory.
+
+## Real Time OS
+
+- Real time operating system are kind of operating system where the time and constraints are fixed and very strict.
+- These operating system are used when we want to fix some time to do perform particular task in specified task very strictly.
+- Is it used in services like Air Crafts, Traffic signals etc.
+- There are three types of Real Time Operating System,
+  - Hard Real Time OS:
+    - In this real time operating system the time and constraint is very fixed and strict. Even a second of delay is not allowed. that’s why given task is completed within the given time only.
+    - This is used in Air Crafts, medical systems etc.
+  - Firm Real Time OS:
+    - In this real time operating system it gives time limit too but crossing the time limit doesn’t result in great loss.
+  - Soft Real Time OS:
+    - As name suggests it handles the deadline and time limit softly, that means if there are small delays in system it’s acceptable.
+- Advantages -
+  - They have no errors.
+  - Due to small size, they can be added to other systems.
+- Disadvantages -
+  - Algorithm are complex
+  - System resources are costly.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[10 - Stack and Queues]]></title>
+            <link>https://dracodemy.tech/posts/10---stack-and-queues</link>
+            <guid>https://dracodemy.tech/posts/10---stack-and-queues</guid>
             <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Stack and Queues
@@ -611,9 +676,9 @@ return()
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[11 - Queue | DSA]]></title>
-            <link>https://dracodemy.tech/posts/11---queue-dsa</link>
-            <guid>https://dracodemy.tech/posts/11---queue-dsa</guid>
+            <title><![CDATA[11 - Queue]]></title>
+            <link>https://dracodemy.tech/posts/11---queue</link>
+            <guid>https://dracodemy.tech/posts/11---queue</guid>
             <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Queue
@@ -690,9 +755,9 @@ return()
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[12 - Revision of Pointers and Structures | DSA]]></title>
-            <link>https://dracodemy.tech/posts/12---revision-of-pointers-and-structures-dsa</link>
-            <guid>https://dracodemy.tech/posts/12---revision-of-pointers-and-structures-dsa</guid>
+            <title><![CDATA[12 - Revision of Pointers and Structures]]></title>
+            <link>https://dracodemy.tech/posts/12---revision-of-pointers-and-structures</link>
+            <guid>https://dracodemy.tech/posts/12---revision-of-pointers-and-structures</guid>
             <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Revision of Pointers
@@ -786,9 +851,9 @@ int main(){
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[13 - Tree and Graph | DSA]]></title>
-            <link>https://dracodemy.tech/posts/13---tree-and-graph-dsa</link>
-            <guid>https://dracodemy.tech/posts/13---tree-and-graph-dsa</guid>
+            <title><![CDATA[13 - Tree and Graph]]></title>
+            <link>https://dracodemy.tech/posts/13---tree-and-graph</link>
+            <guid>https://dracodemy.tech/posts/13---tree-and-graph</guid>
             <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 > Topics which are not mentioned in post: Conversion of General Tree to Binary Tree & Binary Tree Traversal: PreOrder, InOrder and PostOrder.
@@ -893,9 +958,9 @@ int main(){
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[14 - Dynamic Memory Allocation | DSA]]></title>
-            <link>https://dracodemy.tech/posts/14---dynamic-memory-allocation-dsa</link>
-            <guid>https://dracodemy.tech/posts/14---dynamic-memory-allocation-dsa</guid>
+            <title><![CDATA[14 - Dynamic Memory Allocation]]></title>
+            <link>https://dracodemy.tech/posts/14---dynamic-memory-allocation</link>
+            <guid>https://dracodemy.tech/posts/14---dynamic-memory-allocation</guid>
             <pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Dynamic Memory Allocation
@@ -961,9 +1026,9 @@ free(ptr)
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[15 - Linked Lists | DSA]]></title>
-            <link>https://dracodemy.tech/posts/15---linked-lists-dsa</link>
-            <guid>https://dracodemy.tech/posts/15---linked-lists-dsa</guid>
+            <title><![CDATA[15 - Linked Lists]]></title>
+            <link>https://dracodemy.tech/posts/15---linked-lists</link>
+            <guid>https://dracodemy.tech/posts/15---linked-lists</guid>
             <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Linked list presentation
@@ -1092,9 +1157,9 @@ free(ptr)
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[2 - Control Flow Structure | Python]]></title>
-            <link>https://dracodemy.tech/posts/2---control-flow-structure-python</link>
-            <guid>https://dracodemy.tech/posts/2---control-flow-structure-python</guid>
+            <title><![CDATA[2 - Control Flow Structure]]></title>
+            <link>https://dracodemy.tech/posts/2---control-flow-structure</link>
+            <guid>https://dracodemy.tech/posts/2---control-flow-structure</guid>
             <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Control Structures
@@ -1499,9 +1564,27 @@ match lang:
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[2 - SQL In built functions and Joins | RDBMS]]></title>
-            <link>https://dracodemy.tech/posts/2---sql-in-built-functions-and-joins-rdbms</link>
-            <guid>https://dracodemy.tech/posts/2---sql-in-built-functions-and-joins-rdbms</guid>
+            <title><![CDATA[2 - Goals of Operating System]]></title>
+            <link>https://dracodemy.tech/posts/2---goals-of-operating-system</link>
+            <guid>https://dracodemy.tech/posts/2---goals-of-operating-system</guid>
+            <pubDate>Mon, 22 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Fundamentals Goals of OS
+
+- Memory management:
+  - Operating system helps user to manage the memory among the processes very efficiently.
+- Efficiency:
+  - Operating system provides very efficient experience to user to manage the computer and to manage the system hardware and software.
+- Convenience:
+  - Operating system makes managing the system very convenient by providing an efficient user interface to interact with system.
+- File handling:
+  - Operating system provides very efficient file handling for user to manage their data.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2 - SQL In built functions and Joins]]></title>
+            <link>https://dracodemy.tech/posts/2---sql-in-built-functions-and-joins</link>
+            <guid>https://dracodemy.tech/posts/2---sql-in-built-functions-and-joins</guid>
             <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Operators Arithmetic, Comparison, Logical, SQL functions-
@@ -1967,9 +2050,9 @@ match lang:
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[2 - Types of Data Structure | DSA]]></title>
-            <link>https://dracodemy.tech/posts/2---types-of-data-structure-dsa</link>
-            <guid>https://dracodemy.tech/posts/2---types-of-data-structure-dsa</guid>
+            <title><![CDATA[2 - Types of Data Structure]]></title>
+            <link>https://dracodemy.tech/posts/2---types-of-data-structure</link>
+            <guid>https://dracodemy.tech/posts/2---types-of-data-structure</guid>
             <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 In this lecture we're going to cover basic about Types of Data Structure.
@@ -2056,9 +2139,9 @@ There are many types of Data Structure but in this lesson we're going to talk ab
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[3 - Database Integrity Constraints & Objects | RDBMS]]></title>
-            <link>https://dracodemy.tech/posts/3---database-integrity-constraints-objects-rdbms</link>
-            <guid>https://dracodemy.tech/posts/3---database-integrity-constraints-objects-rdbms</guid>
+            <title><![CDATA[3 - Database Integrity Constraints & Objects]]></title>
+            <link>https://dracodemy.tech/posts/3---database-integrity-constraints-objects</link>
+            <guid>https://dracodemy.tech/posts/3---database-integrity-constraints-objects</guid>
             <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Domain Integrity constraints: Not null, Check
@@ -2320,9 +2403,9 @@ CREATE INDEX index_name ON table_name;
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[3 - List, Tuples, Sets and Dictionaries | Python]]></title>
-            <link>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries-python</link>
-            <guid>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries-python</guid>
+            <title><![CDATA[3 - List, Tuples, Sets and Dictionaries]]></title>
+            <link>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries</link>
+            <guid>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries</guid>
             <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Lists and operations on Lists
@@ -2658,9 +2741,9 @@ new_dict = {
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[3 - Operations on Data Structures | DSA]]></title>
-            <link>https://dracodemy.tech/posts/3---operations-on-data-structures-dsa</link>
-            <guid>https://dracodemy.tech/posts/3---operations-on-data-structures-dsa</guid>
+            <title><![CDATA[3 - Operations on Data Structures]]></title>
+            <link>https://dracodemy.tech/posts/3---operations-on-data-structures</link>
+            <guid>https://dracodemy.tech/posts/3---operations-on-data-structures</guid>
             <pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Let's talk about operations we can perform on data structures
@@ -2698,9 +2781,46 @@ Here operations basically means changing the existing data structure or creating
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[4 - Functions and Modules | Python]]></title>
-            <link>https://dracodemy.tech/posts/4---functions-and-modules-python</link>
-            <guid>https://dracodemy.tech/posts/4---functions-and-modules-python</guid>
+            <title><![CDATA[3 - Services of Operating System]]></title>
+            <link>https://dracodemy.tech/posts/3---services-of-operating-system</link>
+            <guid>https://dracodemy.tech/posts/3---services-of-operating-system</guid>
+            <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Operating system services
+
+- Operating system services are basically those services which are provided to user by operating to system to make user experience very efficient by providing specific components.
+- Operating system services can be divided into two categories:
+
+## User POV
+
+- It contains those services which make working with operating system making efficient for user.
+- User interface:
+  - Operating system provides very efficient user interface for interacting user with the computer system; Software and Hardware both.
+- File handling:
+  - Operating system provides very great file handling for user to manage their data very efficiently throughout entire system.
+- Input and Output Operations:
+  - Operating system helps user by providing better I/O Operations performance to manage items.
+- Program Execution:
+  - Operating system allows user to load programs into memory and execute them as per user’s needs.
+
+## System POV
+
+- Communications:
+  - Sometimes computer has to communicate between components to manage things, that’s where OS services helps
+- Error handling:
+  - When there are errors in computer system the operating system manages those errors in very graceful manner to make it easier for user.
+- Resource Allocation:
+  - Operating system manages resource allocation between programs very efficiently.
+- Memory Allocation:
+  - Operating system manage memory between process greatly since most of the programs are loaded into the same main memory.
+- Security and Protection:
+  - Operating system provides great security and protections for our computer files and personal data to be stored.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4 - Functions and Modules]]></title>
+            <link>https://dracodemy.tech/posts/4---functions-and-modules</link>
+            <guid>https://dracodemy.tech/posts/4---functions-and-modules</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to python user defined function
@@ -2760,6 +2880,7 @@ Here operations basically means changing the existing data structure or creating
 - we can use these functions directly in our code by calling them with identifier.
 - here are few of the built-in function in python,
 - len()
+
   - len function is used to find length of passed object.
 
   ```python
@@ -2768,6 +2889,7 @@ Here operations basically means changing the existing data structure or creating
   ```
 
 - print()
+
   - print function is used to print any output on our console.
 
   ```python
@@ -2776,6 +2898,7 @@ Here operations basically means changing the existing data structure or creating
   ```
 
 - input()
+
   - input function is used to take input from user, store it in variable and use later in our python program.
 
   ```python
@@ -2796,6 +2919,7 @@ Here operations basically means changing the existing data structure or creating
   ```
 
 - min()
+
   - min function is used to find minimum value from passed parameters.
 
   ```python
@@ -2803,6 +2927,7 @@ Here operations basically means changing the existing data structure or creating
   ```
 
 - max()
+
   - max function is used to find maximum value from passed parameters.
 
   ```python
@@ -2810,6 +2935,7 @@ Here operations basically means changing the existing data structure or creating
   ```
 
 - sum()
+
   - sum function is used to sum up two passed parameters.
 
   ```python
@@ -2865,7 +2991,9 @@ import math
 ```
 
 - Here are few function from the math module
+
   - `math.sum()`
+
     - Returns sum of two numbers
 
     ```python
@@ -2873,6 +3001,7 @@ import math
     ```
 
   - `math.pow()`
+
     - Return answer of A to the B
 
     ```python
@@ -2880,6 +3009,7 @@ import math
     ```
 
   - `math.exp()`
+
     - Returns exponential of the number
 
     ```python
@@ -2901,6 +3031,7 @@ import math
   - `math.log()`
     - Returns log of given number.
   - `math.sqrt()`
+
     - Returns Square root of given number.
 
     ```python
@@ -2908,6 +3039,7 @@ import math
     ```
 
   - `math.fact()`
+
     - Returns factorial of given number.
 
     ```python
@@ -3055,9 +3187,50 @@ print(matho.div(a,b))
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[4 - Introduction to Algorithms | DSA]]></title>
-            <link>https://dracodemy.tech/posts/4---introduction-to-algorithms-dsa</link>
-            <guid>https://dracodemy.tech/posts/4---introduction-to-algorithms-dsa</guid>
+            <title><![CDATA[4 - Generations of Operating System]]></title>
+            <link>https://dracodemy.tech/posts/4---generations-of-operating-system</link>
+            <guid>https://dracodemy.tech/posts/4---generations-of-operating-system</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Generations of Operating System
+
+- There are four generation of Operating System
+
+## First Generation
+
+- First generation of operating system was in work while 1940s to 1950s.
+- It was basic batch processing system without any user interface.
+
+## Second Generation
+
+- Second generation of operating system was in work while 1950s to 1960s.
+- It was also batch operating system but it was improvised with multiple jobs in sequence execution feature.
+- It had scheduling and resource management.
+
+## Third Generation
+
+- Third generation of operating system was in work while 1960s to 1970s.
+- It was introduced with time sharing operating system to allow multiple users to interact with computer at the same time.
+- Development of High Level programming languages.
+
+## Fourth Generation
+
+- Fourth generation of operating system is in work since 1980s to present time.
+- It has efficient system management.
+- It includes great user interface with development of high level programming languages with distributed OS.
+- Latest OS like windows, Linux, Mac works with this generation
+
+## Fifth Generation (Extra)
+
+- Fifth generation is upcoming generation in future time.
+- It will include Artificial intelligence with machine learning and advance security features.
+- It will include even better cloud computing with virtualization.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4 - Introduction to Algorithms]]></title>
+            <link>https://dracodemy.tech/posts/4---introduction-to-algorithms</link>
+            <guid>https://dracodemy.tech/posts/4---introduction-to-algorithms</guid>
             <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Algorithm
@@ -3102,9 +3275,9 @@ print(matho.div(a,b))
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[5 - Normalization | RDBMS]]></title>
-            <link>https://dracodemy.tech/posts/5---normalization-rdbms</link>
-            <guid>https://dracodemy.tech/posts/5---normalization-rdbms</guid>
+            <title><![CDATA[5 - Normalization]]></title>
+            <link>https://dracodemy.tech/posts/5---normalization</link>
+            <guid>https://dracodemy.tech/posts/5---normalization</guid>
             <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Basics of Normalization
@@ -3178,9 +3351,9 @@ print(matho.div(a,b))
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[5 - Notations for Algorithm design | DSA]]></title>
-            <link>https://dracodemy.tech/posts/5---notations-for-algorithm-design-dsa</link>
-            <guid>https://dracodemy.tech/posts/5---notations-for-algorithm-design-dsa</guid>
+            <title><![CDATA[5 - Notations for Algorithm design]]></title>
+            <link>https://dracodemy.tech/posts/5---notations-for-algorithm-design</link>
+            <guid>https://dracodemy.tech/posts/5---notations-for-algorithm-design</guid>
             <pubDate>Thu, 31 Aug 2023 18:30:00 GMT</pubDate>
             <description><![CDATA[
 ## Notation for Algorithm design
@@ -3243,9 +3416,9 @@ step 4: [Finish]
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[5 - String Processing and File Handling | Python]]></title>
-            <link>https://dracodemy.tech/posts/5---string-processing-and-file-handling-python</link>
-            <guid>https://dracodemy.tech/posts/5---string-processing-and-file-handling-python</guid>
+            <title><![CDATA[5 - String Processing and File Handling]]></title>
+            <link>https://dracodemy.tech/posts/5---string-processing-and-file-handling</link>
+            <guid>https://dracodemy.tech/posts/5---string-processing-and-file-handling</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to String
@@ -3623,9 +3796,9 @@ print(list1[2])
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[6 - Algorithm Analysis and Notations | DSA]]></title>
-            <link>https://dracodemy.tech/posts/6---algorithm-analysis-and-notations-dsa</link>
-            <guid>https://dracodemy.tech/posts/6---algorithm-analysis-and-notations-dsa</guid>
+            <title><![CDATA[6 - Algorithm Analysis and Notations]]></title>
+            <link>https://dracodemy.tech/posts/6---algorithm-analysis-and-notations</link>
+            <guid>https://dracodemy.tech/posts/6---algorithm-analysis-and-notations</guid>
             <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Algorithm Analysis
@@ -3720,9 +3893,9 @@ print(list1[2])
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[7 - Arrays | DSA]]></title>
-            <link>https://dracodemy.tech/posts/7---arrays-dsa</link>
-            <guid>https://dracodemy.tech/posts/7---arrays-dsa</guid>
+            <title><![CDATA[7 - Arrays]]></title>
+            <link>https://dracodemy.tech/posts/7---arrays</link>
+            <guid>https://dracodemy.tech/posts/7---arrays</guid>
             <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Arrays
@@ -3873,9 +4046,9 @@ int main(){
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[8 - Operations on Array | DSA]]></title>
-            <link>https://dracodemy.tech/posts/8---operations-on-array-dsa</link>
-            <guid>https://dracodemy.tech/posts/8---operations-on-array-dsa</guid>
+            <title><![CDATA[8 - Operations on Array]]></title>
+            <link>https://dracodemy.tech/posts/8---operations-on-array</link>
+            <guid>https://dracodemy.tech/posts/8---operations-on-array</guid>
             <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Arrays Operations
@@ -3925,9 +4098,9 @@ Let's talk about operations that can be done on array in Data Structure.
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[9 - Strings | DSA]]></title>
-            <link>https://dracodemy.tech/posts/9---strings-dsa</link>
-            <guid>https://dracodemy.tech/posts/9---strings-dsa</guid>
+            <title><![CDATA[9 - Strings]]></title>
+            <link>https://dracodemy.tech/posts/9---strings</link>
+            <guid>https://dracodemy.tech/posts/9---strings</guid>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Strings
