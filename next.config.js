@@ -21,6 +21,7 @@ module.exports = {
     if (isServer) {
       generateSitemap();
       generateRSSFeed();
+      renameSlug();
       config.optimization.minimizer.push(new TerserPlugin());
       console.log("Optimized project!");
     }
