@@ -364,14 +364,18 @@ blockquote {
 }
 
 .related-blogs {
+  position: sticky;
+  top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.745) 0px 20px 30px -10px;
   .accordion {
     background-color: #121212;
     color: rgb(170, 170, 170);
+
     cursor: pointer;
     padding: 18px;
     justify-content: space-between;
     display: flex !important;
-    border: none;
+    border: 2px solid rgba(124, 104, 238, 0.577);
     border-radius: 8px;
     text-align: left;
     outline: none;
@@ -394,6 +398,8 @@ blockquote {
   .open-accordion {
     transform: translateY(-6px);
     background-color: #121212;
+    border: 1px solid rgba(124, 104, 238, 0.577);
+    border-top: none;
     border-radius: 0 0 8px 8px;
   }
   .panel {
