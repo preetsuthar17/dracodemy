@@ -207,6 +207,13 @@ $color_3: #aaaab5;
   .blog-date {
     font-size: 1.1rem;
   }
+  .blog-tag {
+    position: absolute;
+    font-size: 12px;
+    top: -6px;
+    right: 15px;
+    opacity: 40%;
+  }
 }
 @media screen and (max-width: 1222px) {
   .blog-title {

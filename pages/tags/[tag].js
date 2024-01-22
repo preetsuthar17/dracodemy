@@ -175,6 +175,9 @@ const Tag = ({ blogs }) => {
                       >
                         {blog.date}
                       </p>
+                      <p className="blog-text blog-tag">
+                        <Link href={"/tags/" + blog.tag}>{blog.tag}</Link>
+                      </p>
                     </div>
                   </div>
                 </motion.div>

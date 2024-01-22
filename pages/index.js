@@ -246,6 +246,12 @@ export default function Home({ posts, tags }) {
                     <p className="blog-text blog-date">
                       {post.frontmatter.date}
                     </p>
+
+                    <p className="blog-text blog-tag">
+                      <Link href={"/tags/" + post.frontmatter.tags}>
+                        {post.frontmatter.tags}
+                      </Link>
+                    </p>
                   </div>
                 ))
               )}
