@@ -1,5 +1,5 @@
 ---
-title: "5 - Notations for Algorithm design | DSA"
+title: "5 - Notations for Algorithm design"
 date: 2023-09-1
 id: 14
 author: "Preet Suthar"

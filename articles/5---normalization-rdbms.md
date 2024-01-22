@@ -1,5 +1,5 @@
 ---
-title: "5 - Normalization | RDBMS"
+title: "5 - Normalization"
 date: 2024-01-12
 id: 8
 author: "Preet Suthar"

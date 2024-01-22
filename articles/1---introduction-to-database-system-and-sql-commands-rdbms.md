@@ -1,5 +1,5 @@
 ---
-title: "1 - Introduction to Database System and SQL commands | RDBMS"
+title: "1 - Introduction to Database System and SQL commands"
 date: 2024-01-09
 id: 2
 author: "Preet Suthar"

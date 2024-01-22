@@ -1,5 +1,5 @@
 ---
-title: "11 - Queue | DSA"
+title: "11 - Queue"
 date: 2024-01-03
 id: 20
 author: "Preet Suthar"

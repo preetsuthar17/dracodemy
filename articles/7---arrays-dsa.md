@@ -1,5 +1,5 @@
 ---
-title: "7 - Arrays | DSA"
+title: "7 - Arrays"
 date: 2023-09-11
 id: 16
 author: "Preet Suthar"

@@ -1,5 +1,5 @@
 ---
-title: "15 - Linked Lists | DSA"
+title: "15 - Linked Lists"
 date: 2024-01-20
 id: 24
 author: "Preet Suthar"

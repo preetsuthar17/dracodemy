@@ -1,5 +1,5 @@
 ---
-title: "1 - Fundamentals of Python | Python"
+title: "1 - Fundamentals of Python"
 date: 2023-12-28
 id: 1
 author: "Preet Suthar"

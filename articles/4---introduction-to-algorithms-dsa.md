@@ -1,5 +1,5 @@
 ---
-title: "4 - Introduction to Algorithms | DSA"
+title: "4 - Introduction to Algorithms"
 date: 2023-08-31
 id: 13
 author: "Preet Suthar"

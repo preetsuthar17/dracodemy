@@ -1,5 +1,5 @@
 ---
-title: "13 - Tree and Graph | DSA"
+title: "13 - Tree and Graph"
 date: 2024-01-05
 id: 22
 author: "Preet Suthar"

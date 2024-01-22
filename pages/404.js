@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 
 const Footer = dynamic(() => import("@/src/components/footer"));
+const Navbar = dynamic(() => import("@/src/components/Navbar"));
 
 import { motion } from "framer-motion";
 
@@ -48,6 +49,7 @@ export default function Custom404() {
           <meta name="subject" content="coding tutorials" />
           <meta name="robots" content="noindex" />
         </Head>
+        <Navbar />
         <div className="notFoundDiv">
           <div className="main_div">
             <h2>404</h2>

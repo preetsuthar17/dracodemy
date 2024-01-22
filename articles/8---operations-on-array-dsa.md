@@ -1,5 +1,5 @@
 ---
-title: "8 - Operations on Array | DSA"
+title: "8 - Operations on Array"
 date: 2023-09-13
 id: 17
 author: "Preet Suthar"

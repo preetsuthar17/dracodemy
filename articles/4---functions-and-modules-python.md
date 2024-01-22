@@ -1,5 +1,5 @@
 ---
-title: "4 - Functions and Modules | Python"
+title: "4 - Functions and Modules"
 date: 2024-01-01
 id: 7
 author: "Preet Suthar"
@@ -65,6 +65,7 @@ tags:
 - we can use these functions directly in our code by calling them with identifier.
 - here are few of the built-in function in python,
 - len()
+
   - len function is used to find length of passed object.
 
   ```python
@@ -73,6 +74,7 @@ tags:
   ```
 
 - print()
+
   - print function is used to print any output on our console.
 
   ```python
@@ -81,6 +83,7 @@ tags:
   ```
 
 - input()
+
   - input function is used to take input from user, store it in variable and use later in our python program.
 
   ```python
@@ -101,6 +104,7 @@ tags:
   ```
 
 - min()
+
   - min function is used to find minimum value from passed parameters.
 
   ```python
@@ -108,6 +112,7 @@ tags:
   ```
 
 - max()
+
   - max function is used to find maximum value from passed parameters.
 
   ```python
@@ -115,6 +120,7 @@ tags:
   ```
 
 - sum()
+
   - sum function is used to sum up two passed parameters.
 
   ```python
@@ -170,7 +176,9 @@ import math
 ```
 
 - Here are few function from the math module
+
   - `math.sum()`
+
     - Returns sum of two numbers
 
     ```python
@@ -178,6 +186,7 @@ import math
     ```
 
   - `math.pow()`
+
     - Return answer of A to the B
 
     ```python
@@ -185,6 +194,7 @@ import math
     ```
 
   - `math.exp()`
+
     - Returns exponential of the number
 
     ```python
@@ -206,6 +216,7 @@ import math
   - `math.log()`
     - Returns log of given number.
   - `math.sqrt()`
+
     - Returns Square root of given number.
 
     ```python
@@ -213,6 +224,7 @@ import math
     ```
 
   - `math.fact()`
+
     - Returns factorial of given number.
 
     ```python

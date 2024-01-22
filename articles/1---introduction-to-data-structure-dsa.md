@@ -1,5 +1,5 @@
 ---
-title: "1 - Introduction to Data Structure | DSA"
+title: "1 - Introduction to Data Structure"
 date: 2023-08-28
 id: 10
 author: "Preet Suthar"

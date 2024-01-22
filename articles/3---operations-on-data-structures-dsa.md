@@ -1,5 +1,5 @@
 ---
-title: "3 - Operations on Data Structures | DSA"
+title: "3 - Operations on Data Structures"
 date: 2023-08-30
 id: 12
 author: "Preet Suthar"

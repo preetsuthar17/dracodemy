@@ -1,5 +1,5 @@
 ---
-title: "9 - Strings | DSA"
+title: "9 - Strings"
 date: 2023-09-16
 id: 18
 author: "Preet Suthar"
