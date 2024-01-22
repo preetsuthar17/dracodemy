@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 4"
+title: "4 - Introduction to Algorithms | DSA"
 date: 2023-08-31
 id: 13
 author: "Preet Suthar"
@@ -33,3 +33,17 @@ tags:
   - An algorithm must be feasible [possible to implement].
 - Independence:
   - An algorithm should have step-by-step direction which should be independent of any programming code.
+
+## Advantages of the Algorithm
+
+- It is a step-by-step representation of a real-life solution.
+- It is easier to understand.
+- It is not dependent on any programming language.
+- It can work as a blueprint for the program to develop.
+- By using an algorithm the problem is broken down into smaller parts hence it is easy for a programmer to convert it into an actual program.
+
+## Disadvantages of an Algorithm
+
+- It is time-consuming.
+- It is difficult to show branching and looping in an algorithm.
+- Big problems are difficult to solve using algorithms.

@@ -1,7 +1,7 @@
 ---
 title: "Must know Topics of Object Oriented Programming"
 date: 2024-01-06
-id: 23
+id: 26
 author: "Preet Suthar"
 authorGithub: "https://github.com/preetsuthar17"
 tags:

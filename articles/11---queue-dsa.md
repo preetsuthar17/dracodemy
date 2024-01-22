@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 11"
+title: "11 - Queue | DSA"
 date: 2024-01-03
 id: 20
 author: "Preet Suthar"

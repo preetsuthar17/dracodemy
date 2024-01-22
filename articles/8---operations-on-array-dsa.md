@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 8"
+title: "8 - Operations on Array | DSA"
 date: 2023-09-13
 id: 17
 author: "Preet Suthar"

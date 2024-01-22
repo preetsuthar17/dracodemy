@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 10"
+title: "10 - Stack and Queues | DSA"
 date: 2023-09-20
 id: 19
 author: "Preet Suthar"

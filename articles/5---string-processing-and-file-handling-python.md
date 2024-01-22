@@ -1,5 +1,5 @@
 ---
-title: "5 - String Processing and File Handling - Python"
+title: "5 - String Processing and File Handling | Python"
 date: 2024-01-02
 id: 9
 author: "Preet Suthar"

@@ -1,162 +1,12 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 12"
-date: 2024-01-04
-id: 21
+title: "15 - Linked Lists | DSA"
+date: 2024-01-20
+id: 24
 author: "Preet Suthar"
 authorGithub: "https://github.com/preetsuthar17"
 tags:
   - DSA Tutorial
 ---
-
-## Revision of Pointers
-
-### Pointer -
-
-- A pointer is a variable that stores the memory address of another variable as its value.
-- It is done using reference operator `&`.
-- A pointer variable points to a datatype of the same type, and is created with `*` operator.
-- Syntax:
-
-  ```python
-  int my_var = 10;
-  int* ptr = &my_var;
-  ```
-
-- In above example the memory address of `my_var` is stored in pointer called `ptr`
-- Let’s access those values and print in console
-
-  ```c
-  int my_var = 10;
-  int* ptr = &my_var;
-
-  // print value of my_var
-  printf("%d\n", my_var);
-
-  // print memory address of my_var without using pointer.
-  printf("%n\n", &my_var);
-
-  // print memory address of my_var using pointer.
-  printf("%p\n", ptr);
-  ```
-
-## Revision of Structure
-
-### Structure -
-
-- A structure in programming language is a user-defined data type.
-- They are used to group multiple related variables at single place.
-- Each variable in structure is known as `member`.
-- A structure can contain multiple type of data like float, int, char, etc.
-
-### Creating Structure
-
-- To create a structure we use `struct` keyword and all the member are declared inside the curly braces `{}`
-
-```c
-struct myStructure { // declaration
- int myNum; // member
- char myLetter; // member
-}; // Ends with semicolon
-```
-
-### Accessing structure and members inside of structure
-
-- To access structure we must create a variable of a structure.
-- We use `struct` keyword inside `main()` function following by identifier.
-
-```c
-struct myStructure{
- int myAge;
- int mySal;
-};
-
-int main(){
- struct myStructure s1;
-
- return 0
-}
-```
-
-- Now to access the structure members we use structure variable following by member name.
-
-```c
-struct myStructure{
- int myAge;
- int mySal;
-};
-
-int main(){
- struct myStructure s1;
-
- s1.myAge = 17;
- s1.mySal = 69000;
-
- printf("My age: %d\n My salary: %d\n", s1.myAge, s1.mySal);
-
- return 0
-}
-```
-
-## Dynamic Memory Allocation
-
-- Dynamic memory allocation in programming language allows the programmer to allocate the memory at runtime.
-- There are 4 function for the memory allocation in C programming language.
-
-  1. malloc()
-  2. calloc()
-  3. realloc()
-  4. free()
-
-### malloc()
-
-- malloc function allocates single block of requested memory.
-- It doesn’t initialize memory at execution time, so it has garbage value initially.
-- It returns null if memory is not sufficient.
-- syntax
-
-  ```c
-  ptr = (cast_type*)malloc(byte_size)
-  ```
-
-- example
-
-  ```c
-  ptr = (int*)malloc(n*sizeof(int)); // we're allocating the size of int datatype
-  ```
-
-### calloc()
-
-- calloc function allocates multiple block of requested memory.
-- It initially initialize all bytes to zero.
-- It returns null if memory is not sufficient.
-- syntax
-
-  ```c
-  ptr = (cast_type*)calloc(number, byte_size);
-  ```
-
-- example
-
-  ```c
-  ptr = (int*)calloc(10, sizeof(int)); // we're allocating the size of  int datatype to 10 blocks in memory
-  ```
-
-### realloc()
-
-- if memory is not sufficient for malloc() or calloc() you can reallocate the memory by realloc() function.
-- basically it changes the memory size.
-
-```c
-ptr = realloc(ptr, new_size)
-```
-
-### free()
-
-- free function is used to release the memory occupied by malloc or calloc functions
-
-```c
-free(ptr)
-```
 
 ## Linked list presentation
 
@@ -200,10 +50,10 @@ free(ptr)
 
 ### Applications of singly linked List
 
-    - Implementing stacks and queues.
-    - Dynamic memory allocation.
-    - Undo - Redo functionality.
-    - media playback applications
+- Implementing stacks and queues.
+- Dynamic memory allocation.
+- Undo - Redo functionality.
+- media playback applications
 
 ## Concept of circular linked list
 

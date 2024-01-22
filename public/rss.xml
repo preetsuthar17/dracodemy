@@ -4,15 +4,15 @@
         <title>dracodemy.tech</title>
         <link>dracodemy.tech</link>
         <description>Welcome to Dracodemy! A website to learn programming efficiently</description>
-        <lastBuildDate>Mon, 22 Jan 2024 03:35:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jan 2024 11:18:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="dracodemy.tech/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[1 - Fundamentals of Python - Python]]></title>
-            <link>https://dracodemy.tech/posts/1---fundamentals-of-python---python</link>
-            <guid>https://dracodemy.tech/posts/1---fundamentals-of-python---python</guid>
+            <title><![CDATA[1 - Fundamentals of Python | Python]]></title>
+            <link>https://dracodemy.tech/posts/1---fundamentals-of-python-python</link>
+            <guid>https://dracodemy.tech/posts/1---fundamentals-of-python-python</guid>
             <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Python
@@ -287,6 +287,98 @@ print(name)
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[1 - Introduction to Data Structure | DSA]]></title>
+            <link>https://dracodemy.tech/posts/1---introduction-to-data-structure-dsa</link>
+            <guid>https://dracodemy.tech/posts/1---introduction-to-data-structure-dsa</guid>
+            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Data Structure
+
+- It is a way of storing and organizing data in the computer system, which can be used and accessed efficiently.
+- It is a technique or method of studying how the data are interrelated to each other logically or mathematically.
+- The study of _Data structure_ covers following points,
+  - the amount of memory required to store data.
+  - Amount of time required to process data.
+
+### Data
+
+- Collection of any information or facts with keys and values which can be late accessed.
+- It is processed and organized in a meaningful way.
+
+### Information
+
+- When a lot of data is processed returns some details which are called "information"
+- It is created in the form of data.
+
+![Diagram](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/50db56ac-6411-45eb-97cd-9e7f0e87e63b)
+
+### Cell
+
+The specific location in memory where data can be stored is called a "Cell".
+
+- It can be referred to as a single bit, Byte, or group of Bytes.
+
+### Field
+
+- The smallest piece of information that can be stored in the data structure.
+
+### Record
+
+- Collection of information about particular items.
+
+### File
+
+- Collection of records
+
+![Diagram](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/53cfecb2-7f4c-49f7-bc35-ae74c3deaa6e)
+
+## Advantages of Data Structure
+
+1. The data is stored in the hard drive of the computer.
+2. Changes or manipulation in the value of data structure can be done easily.
+3. Data can be accessed easily anytime anywhere.
+4. Data structure provides models for real-life problems
+
+## Application of Data Structure
+
+1. It can be used for compiler designs.
+2. It can be used for computer graphics.
+3. Also it is used in operating systems.
+4. For database management system.
+5. Artificial intelligence and more...
+
+## Types of Data Structure
+
+Let's see types of data structure without deep diving, into the basics.
+
+1. Primitive:
+   - It contains fundamentals for basic datatypes
+   - For example, Int, Float, Boolean
+2. Non-primitive:
+   - User-defined datatypes created and derived using primitive datatypes.
+   - For example, Structure, Class, Union
+3. Linear data structure:
+   - Type of data structure where data is stored with a particular sequence.
+   - For example, Arrays, Queue, Stacked.
+4. Non-Linear data structure:
+   - Type of data structure where data is stored without a particular sequence. [Randomly]
+   - For example, Tree, Graph.
+5. Homogeneous data structure:
+   - Type of data structure where data is stored with similar types of data.
+   - For example, Arrays.
+6. Non-Homogeneous structure:
+   - Type of data structure where the datatype of data doesn't need to be similar to Homogeneous.
+   - For example, Structure, Class.
+7. Static data structure:
+   - In this data structure the values are fixed in memory which cannot be changed in run time.
+   - No expansion in memory during runtime.
+8. Dynamic data structure:
+   - Changes can be made in runtime.
+   - No fixed memory value.
+   - possible to expand memory areas by adding or deleting data.
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[1 - Introduction to Database System and SQL commands | RDBMS]]></title>
             <link>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands-rdbms</link>
             <guid>https://dracodemy.tech/posts/1---introduction-to-database-system-and-sql-commands-rdbms</guid>
@@ -435,9 +527,574 @@ WhERE id = 3;
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[2 - Control Flow Structure - Python]]></title>
-            <link>https://dracodemy.tech/posts/2---control-flow-structure---python</link>
-            <guid>https://dracodemy.tech/posts/2---control-flow-structure---python</guid>
+            <title><![CDATA[10 - Stack and Queues | DSA]]></title>
+            <link>https://dracodemy.tech/posts/10---stack-and-queues-dsa</link>
+            <guid>https://dracodemy.tech/posts/10---stack-and-queues-dsa</guid>
+            <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Stack and Queues
+
+## Stack
+
+- It is non-primitive linear Data Structure where you can insert and delete values at the same End also known as Top of Stack.
+
+![stack](https://i.imgur.com/B6MvXk5.png)
+
+- Stack is also known as LIFO - Last in First Out.
+- Which means the values inserts last in stack is the value gets deleted first.
+- To insert any value at end of stack you have to delete all of the top values and then insert new value.
+- Whenever stack is empty the top stack value is "0" or "-1".
+
+## Properties of Stack
+
+- Insertion operation in stack is called "Push Operation".
+- Deletion operation in stack is called "Pop Operation".
+- A pointer at top always keeps track of top elements in stack.
+- Initially when stack is empty top has value of "Zero (0) " and when stack contain single element top has value of "One (1)" and this value increases according to insertion in stack and decreases according to deletion.
+- Each time new element insert in stack the top pointer is incremented by "One (1)" and decrement by "One (1)" when element delete.
+
+## Operations on Stack
+
+- Stack has two operations:
+  - 1. Push
+  - 2. Pop
+
+## Stack operation - Push
+
+- Push operation means adding.
+- Push operation is used to insert any new value in stack
+- After every push operation the top of stack value is increased by 1.
+- When you try to insert value in stack when stack is full, you create condition which is called `Stack Full condition` or `Stack overflow condition`.
+
+### Stack Push Algorithm
+
+```plain
+Step 1: [Initialization]
+if ( top >= N)
+then write("Stack overflow)
+return ()
+
+Step 2:
+Top = Top + 1
+
+Step 3:
+S[Top] = X
+
+Step 4: [Finish]
+Return ()
+```
+
+## Stack operation - Pop
+
+- Pop operation means delete.
+- Pop operation is used to delete any value from stack.
+- After every pop operation the top of stack value is decreased by 1.
+- When you try to delete value from stack when stack is empty, you create condition which is called `Stack underflow condition`
+
+### Stack Pop Algorithm
+
+```plain
+Step 1:
+if (Top = 0)
+then write("Stack Underflow")
+return ()
+
+Step 2:
+Y <- S[Top]
+
+Step 3:
+Top <- Top - 1
+
+Step 4:
+return()
+```
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[11 - Queue | DSA]]></title>
+            <link>https://dracodemy.tech/posts/11---queue-dsa</link>
+            <guid>https://dracodemy.tech/posts/11---queue-dsa</guid>
+            <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Queue
+
+- Queue is a linear data structure where insertion and deletion operations are performed at the both end.
+- Queue is also known as FIFO (first in first out) because the element which was inserted first is deleted first.
+- A queue is like ticket window, where whoever comes first, gets served first.
+
+![Untitled](https://i.imgur.com/mHrjzNg.png)
+
+- In a queue there are two ends, front-end and rear-end.
+- Insertion in queue is done from rear-end which is called enqueue.
+- Deletion in queue is done at the front-end which is called dequeue.
+- Characteristics of queue:
+  - Queue can handle multiple data.
+  - In queue we can access both ends.
+  - Queue is fast and flexible.
+- Operations on queue:
+  - Insertion
+  - Deletion
+  - Traversing
+- Types of Queue
+  - Singular Queue
+  - Circular Queue.
+
+## Concept of Circular Queue
+
+- Circular queue is normal queue but looped in circular manner.
+- Circular queue doesn’t have any null character at the end.
+- The manner of circular queue is set in a way that no number of memory wastes.
+- All the data in circular queue are looped and start pointer is connected with the last pointer.
+
+  ![Untitled](https://i.imgur.com/bS7DP5P.png)
+
+- Circular queue doesn’t waste any memory like normal queue.
+- When element is deleted in normal queue the space that it left becomes non-usable.
+- Where the circular queue it takes the empty space and make good use of it.
+- Operations on circular queue:
+  - Insertion (Enqueue)
+  - Deletion (Dequeue)
+  - IsEmpty/IsFull
+- Application of circular queue:
+  - Memory management
+    - Circular queue is used in memory management
+  - Process Scheduling
+    - A CPU uses a queue to schedule processes.
+  - Traffic System
+    - Queues are also used in traffic systems.
+
+## Application of Queue
+
+- Task Scheduling
+  - Queues can be used to manage and schedule the task based on priority or the order in which they were received.
+- Operating System
+  - Operating systems often uses Queue to manage the task of processing and resources.
+- Resource Allocation
+  - Queues can be used to manage and allocate the resources to task based on their priority or in the order they were received.
+- Batch Processing
+  - Queues can be used to handle batch processing jobs such as data analysis or image rendering.
+- Web Servers
+  - Queues can help to manage incoming client requests and outgoing server data efficiently.
+- Printer queues
+  - Queues in printer helps to manage queue of pending prints.
+
+## Differentiate circular queue ad simple queue
+
+| Simple Queue                                                     | Circular Queue                                             |
+| ---------------------------------------------------------------- | ---------------------------------------------------------- |
+| Elements are in sequential and linear manner.                    | Elements are in circular manner loop through entire queue  |
+| Insertion is done from rear-end and deletion from the front-end. | Insertion and deletion can be done from any place any end. |
+| Memory space is more occupied than circular queue.               | Memory space is less occupied than simple Queue            |
+| The usage of memory is inefficient.                              | The memory can be more efficiently utilized.               |
+| It follows FIFO principle (First in First Out)                   | It doesn’t have any specific manner                        |
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[12 - Revision of Pointers and Structures | DSA]]></title>
+            <link>https://dracodemy.tech/posts/12---revision-of-pointers-and-structures-dsa</link>
+            <guid>https://dracodemy.tech/posts/12---revision-of-pointers-and-structures-dsa</guid>
+            <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Revision of Pointers
+
+### Pointer -
+
+- A pointer is a variable that stores the memory address of another variable as its value.
+- It is done using reference operator `&`.
+- A pointer variable points to a datatype of the same type, and is created with `*` operator.
+- Syntax:
+
+  ```python
+  int my_var = 10;
+  int* ptr = &my_var;
+  ```
+
+- In above example the memory address of `my_var` is stored in pointer called `ptr`
+- Let’s access those values and print in console
+
+  ```c
+  int my_var = 10;
+  int* ptr = &my_var;
+
+  // print value of my_var
+  printf("%d\n", my_var);
+
+  // print memory address of my_var without using pointer.
+  printf("%n\n", &my_var);
+
+  // print memory address of my_var using pointer.
+  printf("%p\n", ptr);
+  ```
+
+## Revision of Structure
+
+### Structure -
+
+- A structure in programming language is a user-defined data type.
+- They are used to group multiple related variables at single place.
+- Each variable in structure is known as `member`.
+- A structure can contain multiple type of data like float, int, char, etc.
+
+### Creating Structure
+
+- To create a structure we use `struct` keyword and all the member are declared inside the curly braces `{}`
+
+```c
+struct myStructure { // declaration
+ int myNum; // member
+ char myLetter; // member
+}; // Ends with semicolon
+```
+
+### Accessing structure and members inside of structure
+
+- To access structure we must create a variable of a structure.
+- We use `struct` keyword inside `main()` function following by identifier.
+
+```c
+struct myStructure{
+ int myAge;
+ int mySal;
+};
+
+int main(){
+ struct myStructure s1;
+
+ return 0
+}
+```
+
+- Now to access the structure members we use structure variable following by member name.
+
+```c
+struct myStructure{
+ int myAge;
+ int mySal;
+};
+
+int main(){
+ struct myStructure s1;
+
+ s1.myAge = 17;
+ s1.mySal = 69000;
+
+ printf("My age: %d\n My salary: %d\n", s1.myAge, s1.mySal);
+
+ return 0
+}
+```
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[13 - Tree and Graph | DSA]]></title>
+            <link>https://dracodemy.tech/posts/13---tree-and-graph-dsa</link>
+            <guid>https://dracodemy.tech/posts/13---tree-and-graph-dsa</guid>
+            <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+> Topics which are not mentioned in post: Conversion of General Tree to Binary Tree & Binary Tree Traversal: PreOrder, InOrder and PostOrder.
+
+## Non-linear data Structure — Tree, Graph
+
+### Tree
+
+- Is hierarchical structure with root node, siblings, nodes, parent nodes, etc.
+- Nodes are connected with edges/branches from parents to children.
+- A node can one have one parent
+- Operations on tree,
+  - Traversal
+  - Sorting
+  - Searching
+  - Insertion
+  - Deletion
+  - etc.
+
+![Untitled](https://i.imgur.com/AERMKPP.png)
+
+### Graph
+
+- Graph is non linear data structure which is collection of nodes and edges.
+- Nodes are connected with edges.
+- A node can be connected back to itself through other nodes.
+
+![Untitled](https://i.imgur.com/N0Z1xOx.png)
+
+## Basic Terms
+
+### General Tree -
+
+- A tree where each node has most two child nodes.
+
+### Forest -
+
+- Collection of multiple trees
+
+### Level Numbers -
+
+- The level or depth of a node form the root with the root at level 0
+
+### degree -
+
+- The number of sub trees or child nodes.
+
+### in-degree -
+
+- Number of incoming edges to node.
+
+### out-degree -
+
+- Number of outgoing edges from a node.
+
+### root node -
+
+- Top level node forming entire tree.
+
+### leaf node -
+
+- A tree with no children node.
+
+### directed edges -
+
+- a edge with defined direction from one node to another.
+
+### path -
+
+- sequence of nodes connected by edges that allow traversing the graph.
+
+### depth -
+
+- number of edges from the root node to last specified node
+- similar as level.
+
+## Application of binary tree
+
+### BST -
+
+- Used Binary trees are used for efficient searching and retrieval of data, especially when the data is sorted.
+
+### File system -
+
+- Binary trees are used to organize files and directories in a hierarchical file system structure.
+
+### Decision Trees -
+
+- Binary trees can also used for decision tree which helps to manage decision making process.
+
+### Sorting -
+
+- binary tree are used to implement sorting algorithm to order items.
+
+### Search engines -
+
+- Binary trees are used in search engines to organize and index web pages.
+
+### Priority queues -
+
+- Binary trees can be implemented as priority queues which are data structures that allow elements to be prioritized and retrieved in specific order.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[14 - Dynamic Memory Allocation | DSA]]></title>
+            <link>https://dracodemy.tech/posts/14---dynamic-memory-allocation-dsa</link>
+            <guid>https://dracodemy.tech/posts/14---dynamic-memory-allocation-dsa</guid>
+            <pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Dynamic Memory Allocation
+
+- Dynamic memory allocation in programming language allows the programmer to allocate the memory at runtime.
+- There are 4 function for the memory allocation in C programming language.
+
+  1. malloc()
+  2. calloc()
+  3. realloc()
+  4. free()
+
+### malloc()
+
+- malloc function allocates single block of requested memory.
+- It doesn’t initialize memory at execution time, so it has garbage value initially.
+- It returns null if memory is not sufficient.
+- syntax
+
+  ```c
+  ptr = (cast_type*)malloc(byte_size)
+  ```
+
+- example
+
+  ```c
+  ptr = (int*)malloc(n*sizeof(int)); // we're allocating the size of int datatype
+  ```
+
+### calloc()
+
+- calloc function allocates multiple block of requested memory.
+- It initially initialize all bytes to zero.
+- It returns null if memory is not sufficient.
+- syntax
+
+  ```c
+  ptr = (cast_type*)calloc(number, byte_size);
+  ```
+
+- example
+
+  ```c
+  ptr = (int*)calloc(10, sizeof(int)); // we're allocating the size of  int datatype to 10 blocks in memory
+  ```
+
+### realloc()
+
+- if memory is not sufficient for malloc() or calloc() you can reallocate the memory by realloc() function.
+- basically it changes the memory size.
+
+```c
+ptr = realloc(ptr, new_size)
+```
+
+### free()
+
+- free function is used to release the memory occupied by malloc or calloc functions
+
+```c
+free(ptr)
+```
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[15 - Linked Lists | DSA]]></title>
+            <link>https://dracodemy.tech/posts/15---linked-lists-dsa</link>
+            <guid>https://dracodemy.tech/posts/15---linked-lists-dsa</guid>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Linked list presentation
+
+- Linked list is a linear data structure just like array.
+- The elements in linked list are connected using pointers.
+  ![Untitled](https://i.imgur.com/dkktSQh.png)
+- Linked list is basically multiple nodes connected together making a sequence of nodes.
+- It has NULL at the end of linked list, which shows that the linked list is ended
+- Each node contains two field,
+  - Data
+  - Next(pointer)
+- Data:
+  - It contains the data of variable.
+- Next(pointer):
+  - It contains the memory address of next data.
+    ![Untitled](https://i.imgur.com/1KhIabX.png)
+- Starting point of linked list is known as Head, and ending point is known has Tail
+- Operations on Linked List
+  - Insertion
+  - Deletion
+  - Traversal
+  - Searching
+  - Sorting
+  - Merging
+
+## Types of linked list
+
+- There are multiple types of Linked List
+  - Singly Linked List
+  - Doubly Linked List
+  - Circular Linked List
+  - Circular doubly Linked List
+
+### Singly linked list -
+
+- A singly linked is single directional linked list, which means we can traverse in only one direction, i.e., from head node to tail node.
+- It is sequence of nodes, where node contains data and pointer/next which points to next node.
+- Last node is Null.
+- It’s linear data structure which means elements are sequentially connected.
+  ![Untitled](https://i.imgur.com/MPdyMFr.png)
+
+### Applications of singly linked List
+
+- Implementing stacks and queues.
+- Dynamic memory allocation.
+- Undo - Redo functionality.
+- media playback applications
+
+## Concept of circular linked list
+
+- A circular linked list is another variation of linked list, but in this linked list the last node don’t have any null character but the last node is connected to first node forming a circular loop.
+- This makes the data structure without endpoints
+  ![Untitled](https://i.imgur.com/LNdUwOa.png)
+- Here you can see the end tail don’t have any NULL character but instead the last character is connected with the first node.
+- It forms a circular loop, which allows user to traverse the list infinitely.
+- Each node contains data and pointer to next node.
+
+### Advantages of circular linked list -
+
+- Used to implement continual traversal like playing playlists on loop.
+- Cancels the need to check for the null character which allows traversal infinitely.
+- Can turn any linked list into a circular one by making the last node’s next pointer reference the first node.
+
+### Applications of circular linked list -
+
+- Used to implement circular buffers.
+- Used to implement OS and browser forward and backward navigation while referencing the next or previous node.
+- Used in Operating Systems to take note of processing.
+- Used for round robin scheduling algorithms.
+- Used to task scheduling in Operating Systems.
+
+## Difference between circular linked list and singly linked list
+
+| Circular Linked List                                                                                        | Singly Linked List                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| The last node points to the first node.                                                                     | The last node doesn’t point to any node but instead it’s NULL.                                                                    |
+| Circular linked list doesn’t have any ending point instead the ending point is referenced to starting node. | Singly linked list have ending point where the ending point is defined with NULL.                                                 |
+| Circular linked list can be traversed infinitely as they don’t have any ending pointer.                     | In Singly linked list the traversal is finite because it has NULL node at the end, and can be only traversed in single direction. |
+| Used for queues, buffers or turn-based games etc.                                                           | Used for stacks, undo functionality, hash table chaining etc.                                                                     |
+
+## Doubly linked list
+
+- Doubly linked list is another type of linked list, which is also sequenced collection of nodes.
+- The doubly linked list is different than singly linked list because the node and traversing has different field and methods.
+  ![Untitled](https://i.imgur.com/3rNB8JT.png)
+- In double linked list the node has three fields.
+  - prev
+    - points to the next pointer of prev node.
+  - data
+    - contains data of the node.
+  - next
+    - points to the prev pointer of next node.
+- This takes more memory compared to singly linked list.
+- Insertion and deletion of node is more efficient since no traversal is required to find the previous node.
+- Nodes are linked together because of that the traversal is done in both direction.
+- Application of Doubly Linked List -
+  - Creating and navigating in both direction browser or OS to traverse forward and backwards.
+  - Implementing Undo and Redo functionality by storing the data in previews and storing the data in forward data.
+  - Music and video player to allow next and previous song navigation.
+  - Image viewer application to allow viewing photos in an album forth and back.
+
+## Difference between Doubly linked list and singly linked list
+
+| Singly Linked List                                 | Doubly Linked List                                     |
+| -------------------------------------------------- | ------------------------------------------------------ |
+| Contains one pointer to next pointer               | Contains pointers to both next and previous node       |
+| Can traverse in only single direction.             | Can traverse in both direction forwards and backwards. |
+| Use less memory to as it only stores next pointer. | Uses more memory as it stores two points               |
+| Can be accessed from head only.                    | Can be accessed from head and tail                     |
+| Simple and clean code.                             | Complex code due to two pointer.                       |
+| Used in Stacks, queues, etc.                       | Used in browsers, OS, undo-redo features, etc.         |
+
+## Applications of Linked List
+
+- Implementing stacks and queues -
+  - Linked list are used for efficient insertion and deletion of data in linear data structures.
+- Undo/redo functionality -
+  - Linked lists can be used to keep track of prev pointers to implement Undo/redo functionality.
+- Browser history functionality -
+  - Page visits in web browser’s history implemented using linked lists to track visit sequence of pages.
+- Image gallery -
+  - Linked list is used to create media browsing system allowing to create next and previous button to navigate media.
+- Dynamic memory allocation -
+  - Linked list doesn’t require reallocation of memory, this makes it useful in systems where amount of data to be stored can’t be predicted ahead of time.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2 - Control Flow Structure | Python]]></title>
+            <link>https://dracodemy.tech/posts/2---control-flow-structure-python</link>
+            <guid>https://dracodemy.tech/posts/2---control-flow-structure-python</guid>
             <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to Control Structures
@@ -1310,6 +1967,95 @@ match lang:
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[2 - Types of Data Structure | DSA]]></title>
+            <link>https://dracodemy.tech/posts/2---types-of-data-structure-dsa</link>
+            <guid>https://dracodemy.tech/posts/2---types-of-data-structure-dsa</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+In this lecture we're going to cover basic about Types of Data Structure.
+
+![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/15e9c195-64ec-4714-ba22-18e74a4e2af0)
+
+## Types
+
+There are many types of Data Structure but in this lesson we're going to talk about two main types of data Structure.
+
+1. Primitive Data Structure
+2. Non Primitive Data Structure
+
+### Other Types
+
+1. Primitive Data Structure
+2. Non Primitive Data Structure
+3. Linear Data Structure
+4. Non Linear Data Structure
+5. Static Data Structure
+6. Dynamic Data Structure
+7. Homogeneous Data Structure
+8. Non Homogeneous Data Structure
+
+## 1. Primitive Data Structure
+
+- The primitive data types are the fundamental datatypes.
+- Example: Int Float Double, Char
+- Now in the primitive, there are two types,
+
+  - 1. Numeric:
+
+    - Int: Numbers with positive, negative values and whole numbers basically not decimal
+      - Example: 23,6,0,1
+    - Real numbers or float numbers: These represent numbers having decimal points.
+      - Example: 1.5, 3.534, 0.43
+
+  - 2. Non Numeric:
+
+    - CHAR: character type of data.
+      - Example: a to OR A to Z
+    - Pointer: It is a datatype that represents the memory address of a variable. Pointers can also be used to access the memory address of a variable.
+
+  - 3. Booleans: AKA logical,
+    - It can represent value either as TRUE or FALSE.
+      - 0 = False, 1 = True
+
+## 2. Non Primitive Data Structure
+
+- These can be derived using any primitive datatype
+- There are two types of Primitive Datatype
+
+  1. Linear Data Structure:
+
+     - Array:
+       - It is a collection of similar kinds of data.
+     - Stack:
+
+       - In data structure, insertion and deletion are performed at one end only.
+       - It is also known as LIFO [Last in First out]
+
+       ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/f8069ecb-ceec-4d7f-a481-4573acdd28ab)
+
+     - Queue:
+
+       - In data structure, insertion at one end and deletion at the other end.
+       - It is also known as FIFO [First in First out]
+         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/58b951bd-35bf-4675-9539-51b6e723ba3f)
+
+     - List:
+       - A list can be defined as a collection of variables of a number of items.
+         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/1a17c6da-322e-426a-81fd-465b924b38f8)
+
+## 2. Non-linear Data Structure
+
+- Tree: [We'll learn more about this in upcoming lectures]
+  ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/9ed3cd66-8dae-407a-90ab-d54c3daec6fd)
+
+- Graph:
+  - It is a collection of vertices (Node) and edges.
+    ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/2682c258-a635-4baf-bff4-fc279b2bc3d9)
+
+> More details will be covered in upcoming lectures.
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[3 - Database Integrity Constraints & Objects | RDBMS]]></title>
             <link>https://dracodemy.tech/posts/3---database-integrity-constraints-objects-rdbms</link>
             <guid>https://dracodemy.tech/posts/3---database-integrity-constraints-objects-rdbms</guid>
@@ -1574,9 +2320,9 @@ CREATE INDEX index_name ON table_name;
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[3 - List, Tuples, Sets and Dictionaries - Python]]></title>
-            <link>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries---python</link>
-            <guid>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries---python</guid>
+            <title><![CDATA[3 - List, Tuples, Sets and Dictionaries | Python]]></title>
+            <link>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries-python</link>
+            <guid>https://dracodemy.tech/posts/3---list-tuples-sets-and-dictionaries-python</guid>
             <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Lists and operations on Lists
@@ -1912,9 +2658,49 @@ new_dict = {
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[4 - Functions and Modules - Python]]></title>
-            <link>https://dracodemy.tech/posts/4---functions-and-modules---python</link>
-            <guid>https://dracodemy.tech/posts/4---functions-and-modules---python</guid>
+            <title><![CDATA[3 - Operations on Data Structures | DSA]]></title>
+            <link>https://dracodemy.tech/posts/3---operations-on-data-structures-dsa</link>
+            <guid>https://dracodemy.tech/posts/3---operations-on-data-structures-dsa</guid>
+            <pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Let's talk about operations we can perform on data structures
+
+Here operations basically means changing the existing data structure or creating a new one.
+
+## Operations on primitive data structure
+
+1. Creation:
+   - This operation is used to create a new data structure.
+2. Destroy:
+   - This operation is used to delete or destroy a new data structure.
+     - For example: `free function`
+3. Selection:
+   - This operation is used to access data structure.
+4. Update:
+   - This operation is used to commit or make new changes or update data structure.
+
+## Operations on non-primitive data structure
+
+1. Transversing:
+   - Transversing means each element in the data structure is accessed and processed at least once.
+2. Sorting:
+   - It means arranging elements in the data structure with some logical order.
+3. Searching:
+   - Searching means finding the location of the element with a given key value.
+4. Merging:
+   - It is the process of combining different elements into one sorted list.
+5. Insertion:
+   - Adding a new element to the data structure.
+6. Deletion:
+   - Deleting specific items from the data structure.
+7. Splitting:
+   - It is the process of partitioning a single list into multiple lists.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4 - Functions and Modules | Python]]></title>
+            <link>https://dracodemy.tech/posts/4---functions-and-modules-python</link>
+            <guid>https://dracodemy.tech/posts/4---functions-and-modules-python</guid>
             <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to python user defined function
@@ -2269,6 +3055,53 @@ print(matho.div(a,b))
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[4 - Introduction to Algorithms | DSA]]></title>
+            <link>https://dracodemy.tech/posts/4---introduction-to-algorithms-dsa</link>
+            <guid>https://dracodemy.tech/posts/4---introduction-to-algorithms-dsa</guid>
+            <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Introduction to Algorithm
+
+- An algorithm is a step-by-step solution to any real-life problem.
+- An algorithm is a sequence of instructions that can act on some input data to produce some output, within the limited number of steps.
+- Algorithm is independent of any programming language.
+- An Algorithm is not a complete code or program. it is the solution to any problem that can be expressed using pseudo code.
+
+## Characteristics of Algorithm
+
+- Input:
+  - An algorithm must have either zero or a limited amount of input.
+- Output:
+  - At least one output must be generated by any algorithm.
+- Definiteness:
+  - Every step in the algorithm must be clear and straightforward.
+- Finiteness:
+  - An algorithm must be completed in a limited number of steps.
+- Effectiveness:
+  - Every step of an algorithm must be effective or have some meaning.
+- Correctness:
+  - For every input, an algorithm should produce the correct output.
+- Feasibility:
+  - An algorithm must be feasible [possible to implement].
+- Independence:
+  - An algorithm should have step-by-step direction which should be independent of any programming code.
+
+## Advantages of the Algorithm
+
+- It is a step-by-step representation of a real-life solution.
+- It is easier to understand.
+- It is not dependent on any programming language.
+- It can work as a blueprint for the program to develop.
+- By using an algorithm the problem is broken down into smaller parts hence it is easy for a programmer to convert it into an actual program.
+
+## Disadvantages of an Algorithm
+
+- It is time-consuming.
+- It is difficult to show branching and looping in an algorithm.
+- Big problems are difficult to solve using algorithms.
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[5 - Normalization | RDBMS]]></title>
             <link>https://dracodemy.tech/posts/5---normalization-rdbms</link>
             <guid>https://dracodemy.tech/posts/5---normalization-rdbms</guid>
@@ -2345,9 +3178,74 @@ print(matho.div(a,b))
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[5 - String Processing and File Handling - Python]]></title>
-            <link>https://dracodemy.tech/posts/5---string-processing-and-file-handling---python</link>
-            <guid>https://dracodemy.tech/posts/5---string-processing-and-file-handling---python</guid>
+            <title><![CDATA[5 - Notations for Algorithm design | DSA]]></title>
+            <link>https://dracodemy.tech/posts/5---notations-for-algorithm-design-dsa</link>
+            <guid>https://dracodemy.tech/posts/5---notations-for-algorithm-design-dsa</guid>
+            <pubDate>Thu, 31 Aug 2023 18:30:00 GMT</pubDate>
+            <description><![CDATA[
+## Notation for Algorithm design
+
+1. Name of algorithm:
+
+   - Every algorithm is given an identifying name written capital letters.
+   - Example:
+     - ARRAY_SEARCH(option1, option2)
+
+2. Steps:
+
+   - The actual algorithm is made up of a number of steps each starting with a phrase enclosed in square brackets which gives a description of that step.
+   - Example:
+     - Step 1 [Description of step]<br/>
+       Instruction.
+
+3. Assignment statement:
+
+   - It is indicated by placing an arrow between the right-hand side and left-hand side of the statement and the variable receiving the value.
+   - Example:
+     - A <- 10
+
+4. If statement:
+
+   - This helps to add conditions in the algorithm.
+   - Example:
+     - if(condition)<br/>then this<br/>else
+
+5. Case statement:
+
+   - The case statement is used for multiple choice type solution.
+
+6. Repeat statement:
+
+   - It is used to create loops in the algorithm.
+     - While loop
+     - For loop
+   - Example:
+     - Repeat while (condition)
+
+7. Goto statement:
+
+   - This goto statement causes unconditional transfer of control to the step referenced.
+
+8. exit statement:
+   - It is used to terminate an algorithm.
+
+## Example of an Algorithm
+
+SUM OF TWO NUMBERS
+
+Step 1: [Initialization]<br/>Take two inputs numbers from the user: a,b
+
+Step 2: [Compute Sum]<br/>Sum = a+b
+
+Step 3: [Print result]<br/> Print Sum
+
+step 4: [Finish]
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[5 - String Processing and File Handling | Python]]></title>
+            <link>https://dracodemy.tech/posts/5---string-processing-and-file-handling-python</link>
+            <guid>https://dracodemy.tech/posts/5---string-processing-and-file-handling-python</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Introduction to String
@@ -2725,893 +3623,9 @@ print(list1[2])
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 1]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-1</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-1</guid>
-            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-## Data Structure
-
-- It is a way of storing and organizing data in the computer system, which can be used and accessed efficiently.
-- It is a technique or method of studying how the data are interrelated to each other logically or mathematically.
-- The study of _Data structure_ covers following points,
-  - the amount of memory required to store data.
-  - Amount of time required to process data.
-
-### Data
-
-- Collection of any information or facts with keys and values which can be late accessed.
-- It is processed and organized in a meaningful way.
-
-### Information
-
-- When a lot of data is processed returns some details which are called "information"
-- It is created in the form of data.
-
-![Diagram](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/50db56ac-6411-45eb-97cd-9e7f0e87e63b)
-
-### Cell
-
-The specific location in memory where data can be stored is called a "Cell".
-
-- It can be referred to as a single bit, Byte, or group of Bytes.
-
-### Field
-
-- The smallest piece of information that can be stored in the data structure.
-
-### Record
-
-- Collection of information about particular items.
-
-### File
-
-- Collection of records
-
-![Diagram](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/53cfecb2-7f4c-49f7-bc35-ae74c3deaa6e)
-
-## Advantages of Data Structure
-
-1. The data is stored in the hard drive of the computer.
-2. Changes or manipulation in the value of data structure can be done easily.
-3. Data can be accessed easily anytime anywhere.
-4. Data structure provides models for real-life problems
-
-## Application of Data Structure
-
-1. It can be used for compiler designs.
-2. It can be used for computer graphics.
-3. Also it is used in operating systems.
-4. For database management system.
-5. Artificial intelligence and more...
-
-## Types of Data Structure
-
-Let's see types of data structure without deep diving, into the basics.
-
-1. Primitive:
-   - It contains fundamentals for basic datatypes
-   - For example, Int, Float, Boolean
-2. Non-primitive:
-   - User-defined datatypes created and derived using primitive datatypes.
-   - For example, Structure, Class, Union
-3. Linear data structure:
-   - Type of data structure where data is stored with a particular sequence.
-   - For example, Arrays, Queue, Stacked.
-4. Non-Linear data structure:
-   - Type of data structure where data is stored without a particular sequence. [Randomly]
-   - For example, Tree, Graph.
-5. Homogeneous data structure:
-   - Type of data structure where data is stored with similar types of data.
-   - For example, Arrays.
-6. Non-Homogeneous structure:
-   - Type of data structure where the datatype of data doesn't need to be similar to Homogeneous.
-   - For example, Structure, Class.
-7. Static data structure:
-   - In this data structure the values are fixed in memory which cannot be changed in run time.
-   - No expansion in memory during runtime.
-8. Dynamic data structure:
-   - Changes can be made in runtime.
-   - No fixed memory value.
-   - possible to expand memory areas by adding or deleting data.
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 10]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-10</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-10</guid>
-            <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-## Stack and Queues
-
-## Stack
-
-- It is non-primitive linear Data Structure where you can insert and delete values at the same End also known as Top of Stack.
-
-![stack](https://i.imgur.com/B6MvXk5.png)
-
-- Stack is also known as LIFO - Last in First Out.
-- Which means the values inserts last in stack is the value gets deleted first.
-- To insert any value at end of stack you have to delete all of the top values and then insert new value.
-- Whenever stack is empty the top stack value is "0" or "-1".
-
-## Properties of Stack
-
-- Insertion operation in stack is called "Push Operation".
-- Deletion operation in stack is called "Pop Operation".
-- A pointer at top always keeps track of top elements in stack.
-- Initially when stack is empty top has value of "Zero (0) " and when stack contain single element top has value of "One (1)" and this value increases according to insertion in stack and decreases according to deletion.
-- Each time new element insert in stack the top pointer is incremented by "One (1)" and decrement by "One (1)" when element delete.
-
-## Operations on Stack
-
-- Stack has two operations:
-  - 1. Push
-  - 2. Pop
-
-## Stack operation - Push
-
-- Push operation means adding.
-- Push operation is used to insert any new value in stack
-- After every push operation the top of stack value is increased by 1.
-- When you try to insert value in stack when stack is full, you create condition which is called `Stack Full condition` or `Stack overflow condition`.
-
-### Stack Push Algorithm
-
-```plain
-Step 1: [Initialization]
-if ( top >= N)
-then write("Stack overflow)
-return ()
-
-Step 2:
-Top = Top + 1
-
-Step 3:
-S[Top] = X
-
-Step 4: [Finish]
-Return ()
-```
-
-## Stack operation - Pop
-
-- Pop operation means delete.
-- Pop operation is used to delete any value from stack.
-- After every pop operation the top of stack value is decreased by 1.
-- When you try to delete value from stack when stack is empty, you create condition which is called `Stack underflow condition`
-
-### Stack Pop Algorithm
-
-```plain
-Step 1:
-if (Top = 0)
-then write("Stack Underflow")
-return ()
-
-Step 2:
-Y <- S[Top]
-
-Step 3:
-Top <- Top - 1
-
-Step 4:
-return()
-```
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 11]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-11</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-11</guid>
-            <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-## Queue
-
-- Queue is a linear data structure where insertion and deletion operations are performed at the both end.
-- Queue is also known as FIFO (first in first out) because the element which was inserted first is deleted first.
-- A queue is like ticket window, where whoever comes first, gets served first.
-
-![Untitled](https://i.imgur.com/mHrjzNg.png)
-
-- In a queue there are two ends, front-end and rear-end.
-- Insertion in queue is done from rear-end which is called enqueue.
-- Deletion in queue is done at the front-end which is called dequeue.
-- Characteristics of queue:
-  - Queue can handle multiple data.
-  - In queue we can access both ends.
-  - Queue is fast and flexible.
-- Operations on queue:
-  - Insertion
-  - Deletion
-  - Traversing
-- Types of Queue
-  - Singular Queue
-  - Circular Queue.
-
-## Concept of Circular Queue
-
-- Circular queue is normal queue but looped in circular manner.
-- Circular queue doesn’t have any null character at the end.
-- The manner of circular queue is set in a way that no number of memory wastes.
-- All the data in circular queue are looped and start pointer is connected with the last pointer.
-
-  ![Untitled](https://i.imgur.com/bS7DP5P.png)
-
-- Circular queue doesn’t waste any memory like normal queue.
-- When element is deleted in normal queue the space that it left becomes non-usable.
-- Where the circular queue it takes the empty space and make good use of it.
-- Operations on circular queue:
-  - Insertion (Enqueue)
-  - Deletion (Dequeue)
-  - IsEmpty/IsFull
-- Application of circular queue:
-  - Memory management
-    - Circular queue is used in memory management
-  - Process Scheduling
-    - A CPU uses a queue to schedule processes.
-  - Traffic System
-    - Queues are also used in traffic systems.
-
-## Application of Queue
-
-- Task Scheduling
-  - Queues can be used to manage and schedule the task based on priority or the order in which they were received.
-- Operating System
-  - Operating systems often uses Queue to manage the task of processing and resources.
-- Resource Allocation
-  - Queues can be used to manage and allocate the resources to task based on their priority or in the order they were received.
-- Batch Processing
-  - Queues can be used to handle batch processing jobs such as data analysis or image rendering.
-- Web Servers
-  - Queues can help to manage incoming client requests and outgoing server data efficiently.
-- Printer queues
-  - Queues in printer helps to manage queue of pending prints.
-
-## Differentiate circular queue ad simple queue
-
-| Simple Queue                                                     | Circular Queue                                             |
-| ---------------------------------------------------------------- | ---------------------------------------------------------- |
-| Elements are in sequential and linear manner.                    | Elements are in circular manner loop through entire queue  |
-| Insertion is done from rear-end and deletion from the front-end. | Insertion and deletion can be done from any place any end. |
-| Memory space is more occupied than circular queue.               | Memory space is less occupied than simple Queue            |
-| The usage of memory is inefficient.                              | The memory can be more efficiently utilized.               |
-| It follows FIFO principle (First in First Out)                   | It doesn’t have any specific manner                        |
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 12]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-12</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-12</guid>
-            <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-## Revision of Pointers
-
-### Pointer -
-
-- A pointer is a variable that stores the memory address of another variable as its value.
-- It is done using reference operator `&`.
-- A pointer variable points to a datatype of the same type, and is created with `*` operator.
-- Syntax:
-
-  ```python
-  int my_var = 10;
-  int* ptr = &my_var;
-  ```
-
-- In above example the memory address of `my_var` is stored in pointer called `ptr`
-- Let’s access those values and print in console
-
-  ```c
-  int my_var = 10;
-  int* ptr = &my_var;
-
-  // print value of my_var
-  printf("%d\n", my_var);
-
-  // print memory address of my_var without using pointer.
-  printf("%n\n", &my_var);
-
-  // print memory address of my_var using pointer.
-  printf("%p\n", ptr);
-  ```
-
-## Revision of Structure
-
-### Structure -
-
-- A structure in programming language is a user-defined data type.
-- They are used to group multiple related variables at single place.
-- Each variable in structure is known as `member`.
-- A structure can contain multiple type of data like float, int, char, etc.
-
-### Creating Structure
-
-- To create a structure we use `struct` keyword and all the member are declared inside the curly braces `{}`
-
-```c
-struct myStructure { // declaration
- int myNum; // member
- char myLetter; // member
-}; // Ends with semicolon
-```
-
-### Accessing structure and members inside of structure
-
-- To access structure we must create a variable of a structure.
-- We use `struct` keyword inside `main()` function following by identifier.
-
-```c
-struct myStructure{
- int myAge;
- int mySal;
-};
-
-int main(){
- struct myStructure s1;
-
- return 0
-}
-```
-
-- Now to access the structure members we use structure variable following by member name.
-
-```c
-struct myStructure{
- int myAge;
- int mySal;
-};
-
-int main(){
- struct myStructure s1;
-
- s1.myAge = 17;
- s1.mySal = 69000;
-
- printf("My age: %d\n My salary: %d\n", s1.myAge, s1.mySal);
-
- return 0
-}
-```
-
-## Dynamic Memory Allocation
-
-- Dynamic memory allocation in programming language allows the programmer to allocate the memory at runtime.
-- There are 4 function for the memory allocation in C programming language.
-
-  1. malloc()
-  2. calloc()
-  3. realloc()
-  4. free()
-
-### malloc()
-
-- malloc function allocates single block of requested memory.
-- It doesn’t initialize memory at execution time, so it has garbage value initially.
-- It returns null if memory is not sufficient.
-- syntax
-
-  ```c
-  ptr = (cast_type*)malloc(byte_size)
-  ```
-
-- example
-
-  ```c
-  ptr = (int*)malloc(n*sizeof(int)); // we're allocating the size of int datatype
-  ```
-
-### calloc()
-
-- calloc function allocates multiple block of requested memory.
-- It initially initialize all bytes to zero.
-- It returns null if memory is not sufficient.
-- syntax
-
-  ```c
-  ptr = (cast_type*)calloc(number, byte_size);
-  ```
-
-- example
-
-  ```c
-  ptr = (int*)calloc(10, sizeof(int)); // we're allocating the size of  int datatype to 10 blocks in memory
-  ```
-
-### realloc()
-
-- if memory is not sufficient for malloc() or calloc() you can reallocate the memory by realloc() function.
-- basically it changes the memory size.
-
-```c
-ptr = realloc(ptr, new_size)
-```
-
-### free()
-
-- free function is used to release the memory occupied by malloc or calloc functions
-
-```c
-free(ptr)
-```
-
-## Linked list presentation
-
-- Linked list is a linear data structure just like array.
-- The elements in linked list are connected using pointers.
-  ![Untitled](https://i.imgur.com/dkktSQh.png)
-- Linked list is basically multiple nodes connected together making a sequence of nodes.
-- It has NULL at the end of linked list, which shows that the linked list is ended
-- Each node contains two field,
-  - Data
-  - Next(pointer)
-- Data:
-  - It contains the data of variable.
-- Next(pointer):
-  - It contains the memory address of next data.
-    ![Untitled](https://i.imgur.com/1KhIabX.png)
-- Starting point of linked list is known as Head, and ending point is known has Tail
-- Operations on Linked List
-  - Insertion
-  - Deletion
-  - Traversal
-  - Searching
-  - Sorting
-  - Merging
-
-## Types of linked list
-
-- There are multiple types of Linked List
-  - Singly Linked List
-  - Doubly Linked List
-  - Circular Linked List
-  - Circular doubly Linked List
-
-### Singly linked list -
-
-- A singly linked is single directional linked list, which means we can traverse in only one direction, i.e., from head node to tail node.
-- It is sequence of nodes, where node contains data and pointer/next which points to next node.
-- Last node is Null.
-- It’s linear data structure which means elements are sequentially connected.
-  ![Untitled](https://i.imgur.com/MPdyMFr.png)
-
-### Applications of singly linked List
-
-    - Implementing stacks and queues.
-    - Dynamic memory allocation.
-    - Undo - Redo functionality.
-    - media playback applications
-
-## Concept of circular linked list
-
-- A circular linked list is another variation of linked list, but in this linked list the last node don’t have any null character but the last node is connected to first node forming a circular loop.
-- This makes the data structure without endpoints
-  ![Untitled](https://i.imgur.com/LNdUwOa.png)
-- Here you can see the end tail don’t have any NULL character but instead the last character is connected with the first node.
-- It forms a circular loop, which allows user to traverse the list infinitely.
-- Each node contains data and pointer to next node.
-
-### Advantages of circular linked list -
-
-- Used to implement continual traversal like playing playlists on loop.
-- Cancels the need to check for the null character which allows traversal infinitely.
-- Can turn any linked list into a circular one by making the last node’s next pointer reference the first node.
-
-### Applications of circular linked list -
-
-- Used to implement circular buffers.
-- Used to implement OS and browser forward and backward navigation while referencing the next or previous node.
-- Used in Operating Systems to take note of processing.
-- Used for round robin scheduling algorithms.
-- Used to task scheduling in Operating Systems.
-
-## Difference between circular linked list and singly linked list
-
-| Circular Linked List                                                                                        | Singly Linked List                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| The last node points to the first node.                                                                     | The last node doesn’t point to any node but instead it’s NULL.                                                                    |
-| Circular linked list doesn’t have any ending point instead the ending point is referenced to starting node. | Singly linked list have ending point where the ending point is defined with NULL.                                                 |
-| Circular linked list can be traversed infinitely as they don’t have any ending pointer.                     | In Singly linked list the traversal is finite because it has NULL node at the end, and can be only traversed in single direction. |
-| Used for queues, buffers or turn-based games etc.                                                           | Used for stacks, undo functionality, hash table chaining etc.                                                                     |
-
-## Doubly linked list
-
-- Doubly linked list is another type of linked list, which is also sequenced collection of nodes.
-- The doubly linked list is different than singly linked list because the node and traversing has different field and methods.
-  ![Untitled](https://i.imgur.com/3rNB8JT.png)
-- In double linked list the node has three fields.
-  - prev
-    - points to the next pointer of prev node.
-  - data
-    - contains data of the node.
-  - next
-    - points to the prev pointer of next node.
-- This takes more memory compared to singly linked list.
-- Insertion and deletion of node is more efficient since no traversal is required to find the previous node.
-- Nodes are linked together because of that the traversal is done in both direction.
-- Application of Doubly Linked List -
-  - Creating and navigating in both direction browser or OS to traverse forward and backwards.
-  - Implementing Undo and Redo functionality by storing the data in previews and storing the data in forward data.
-  - Music and video player to allow next and previous song navigation.
-  - Image viewer application to allow viewing photos in an album forth and back.
-
-## Difference between Doubly linked list and singly linked list
-
-| Singly Linked List                                 | Doubly Linked List                                     |
-| -------------------------------------------------- | ------------------------------------------------------ |
-| Contains one pointer to next pointer               | Contains pointers to both next and previous node       |
-| Can traverse in only single direction.             | Can traverse in both direction forwards and backwards. |
-| Use less memory to as it only stores next pointer. | Uses more memory as it stores two points               |
-| Can be accessed from head only.                    | Can be accessed from head and tail                     |
-| Simple and clean code.                             | Complex code due to two pointer.                       |
-| Used in Stacks, queues, etc.                       | Used in browsers, OS, undo-redo features, etc.         |
-
-## Applications of Linked List
-
-- Implementing stacks and queues -
-  - Linked list are used for efficient insertion and deletion of data in linear data structures.
-- Undo/redo functionality -
-  - Linked lists can be used to keep track of prev pointers to implement Undo/redo functionality.
-- Browser history functionality -
-  - Page visits in web browser’s history implemented using linked lists to track visit sequence of pages.
-- Image gallery -
-  - Linked list is used to create media browsing system allowing to create next and previous button to navigate media.
-- Dynamic memory allocation -
-  - Linked list doesn’t require reallocation of memory, this makes it useful in systems where amount of data to be stored can’t be predicted ahead of time.
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 13]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-13</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-13</guid>
-            <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-> Topics which are not mentioned in post: Conversion of General Tree to Binary Tree & Binary Tree Traversal: PreOrder, InOrder and PostOrder.
-
-## Non-linear data Structure — Tree, Graph
-
-### Tree
-
-- Is hierarchical structure with root node, siblings, nodes, parent nodes, etc.
-- Nodes are connected with edges/branches from parents to children.
-- A node can one have one parent
-- Operations on tree,
-  - Traversal
-  - Sorting
-  - Searching
-  - Insertion
-  - Deletion
-  - etc.
-
-![Untitled](https://i.imgur.com/AERMKPP.png)
-
-### Graph
-
-- Graph is non linear data structure which is collection of nodes and edges.
-- Nodes are connected with edges.
-- A node can be connected back to itself through other nodes.
-
-![Untitled](https://i.imgur.com/N0Z1xOx.png)
-
-## Basic Terms
-
-### General Tree -
-
-- A tree where each node has most two child nodes.
-
-### Forest -
-
-- Collection of multiple trees
-
-### Level Numbers -
-
-- The level or depth of a node form the root with the root at level 0
-
-### degree -
-
-- The number of sub trees or child nodes.
-
-### in-degree -
-
-- Number of incoming edges to node.
-
-### out-degree -
-
-- Number of outgoing edges from a node.
-
-### root node -
-
-- Top level node forming entire tree.
-
-### leaf node -
-
-- A tree with no children node.
-
-### directed edges -
-
-- a edge with defined direction from one node to another.
-
-### path -
-
-- sequence of nodes connected by edges that allow traversing the graph.
-
-### depth -
-
-- number of edges from the root node to last specified node
-- similar as level.
-
-## Application of binary tree
-
-### BST -
-
-- Used Binary trees are used for efficient searching and retrieval of data, especially when the data is sorted.
-
-### File system -
-
-- Binary trees are used to organize files and directories in a hierarchical file system structure.
-
-### Decision Trees -
-
-- Binary trees can also used for decision tree which helps to manage decision making process.
-
-### Sorting -
-
-- binary tree are used to implement sorting algorithm to order items.
-
-### Search engines -
-
-- Binary trees are used in search engines to organize and index web pages.
-
-### Priority queues -
-
-- Binary trees can be implemented as priority queues which are data structures that allow elements to be prioritized and retrieved in specific order.
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 2]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-2</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-2</guid>
-            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-In this lecture we're going to cover basic about Types of Data Structure.
-
-![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/15e9c195-64ec-4714-ba22-18e74a4e2af0)
-
-## Types
-
-There are many types of Data Structure but in this lesson we're going to talk about two main types of data Structure.
-
-1. Primitive Data Structure
-2. Non Primitive Data Structure
-
-### Other Types
-
-1. Primitive Data Structure
-2. Non Primitive Data Structure
-3. Linear Data Structure
-4. Non Linear Data Structure
-5. Static Data Structure
-6. Dynamic Data Structure
-7. Homogeneous Data Structure
-8. Non Homogeneous Data Structure
-
-## 1. Primitive Data Structure
-
-- The primitive data types are the fundamental datatypes.
-- Example: Int Float Double, Char
-- Now in the primitive, there are two types,
-
-  - 1. Numeric:
-
-    - Int: Numbers with positive, negative values and whole numbers basically not decimal
-      - Example: 23,6,0,1
-    - Real numbers or float numbers: These represent numbers having decimal points.
-      - Example: 1.5, 3.534, 0.43
-
-  - 2. Non Numeric:
-
-    - CHAR: character type of data.
-      - Example: a to OR A to Z
-    - Pointer: It is a datatype that represents the memory address of a variable. Pointers can also be used to access the memory address of a variable.
-
-  - 3. Booleans: AKA logical,
-    - It can represent value either as TRUE or FALSE.
-      - 0 = False, 1 = True
-
-## 2. Non Primitive Data Structure
-
-- These can be derived using any primitive datatype
-- There are two types of Primitive Datatype
-
-  1. Linear Data Structure:
-
-     - Array:
-       - It is a collection of similar kinds of data.
-     - Stack:
-
-       - In data structure, insertion and deletion are performed at one end only.
-       - It is also known as LIFO [Last in First out]
-
-       ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/f8069ecb-ceec-4d7f-a481-4573acdd28ab)
-
-     - Queue:
-
-       - In data structure, insertion at one end and deletion at the other end.
-       - It is also known as FIFO [First in First out]
-         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/58b951bd-35bf-4675-9539-51b6e723ba3f)
-
-     - List:
-       - A list can be defined as a collection of variables of a number of items.
-         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/1a17c6da-322e-426a-81fd-465b924b38f8)
-
-## 2. Non-linear Data Structure
-
-- Tree: [We'll learn more about this in upcoming lectures]
-  ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/9ed3cd66-8dae-407a-90ab-d54c3daec6fd)
-
-- Graph:
-  - It is a collection of vertices (Node) and edges.
-    ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/2682c258-a635-4baf-bff4-fc279b2bc3d9)
-
-> More details will be covered in upcoming lectures.
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 3]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-3</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-3</guid>
-            <pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-## Let's talk about operations we can perform on data structures
-
-Here operations basically means changing the existing data structure or creating a new one.
-
-## Operations on primitive data structure
-
-1. Creation:
-   - This operation is used to create a new data structure.
-2. Destroy:
-   - This operation is used to delete or destroy a new data structure.
-     - For example: `free function`
-3. Selection:
-   - This operation is used to access data structure.
-4. Update:
-   - This operation is used to commit or make new changes or update data structure.
-
-## Operations on non-primitive data structure
-
-1. Transversing:
-   - Transversing means each element in the data structure is accessed and processed at least once.
-2. Sorting:
-   - It means arranging elements in the data structure with some logical order.
-3. Searching:
-   - Searching means finding the location of the element with a given key value.
-4. Merging:
-   - It is the process of combining different elements into one sorted list.
-5. Insertion:
-   - Adding a new element to the data structure.
-6. Deletion:
-   - Deleting specific items from the data structure.
-7. Splitting:
-   - It is the process of partitioning a single list into multiple lists.
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 4]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-4</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-4</guid>
-            <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[
-## Introduction to Algorithm
-
-- An algorithm is a step-by-step solution to any real-life problem.
-- An algorithm is a sequence of instructions that can act on some input data to produce some output, within the limited number of steps.
-- Algorithm is independent of any programming language.
-- An Algorithm is not a complete code or program. it is the solution to any problem that can be expressed using pseudo code.
-
-## Characteristics of Algorithm
-
-- Input:
-  - An algorithm must have either zero or a limited amount of input.
-- Output:
-  - At least one output must be generated by any algorithm.
-- Definiteness:
-  - Every step in the algorithm must be clear and straightforward.
-- Finiteness:
-  - An algorithm must be completed in a limited number of steps.
-- Effectiveness:
-  - Every step of an algorithm must be effective or have some meaning.
-- Correctness:
-  - For every input, an algorithm should produce the correct output.
-- Feasibility:
-  - An algorithm must be feasible [possible to implement].
-- Independence:
-  - An algorithm should have step-by-step direction which should be independent of any programming code.
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 5]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-5</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-5</guid>
-            <pubDate>Thu, 31 Aug 2023 18:30:00 GMT</pubDate>
-            <description><![CDATA[
-## Notation for Algorithm design
-
-1. Name of algorithm:
-
-   - Every algorithm is given an identifying name written capital letters.
-   - Example:
-     - ARRAY_SEARCH(option1, option2)
-
-2. Steps:
-
-   - The actual algorithm is made up of a number of steps each starting with a phrase enclosed in square brackets which gives a description of that step.
-   - Example:
-     - Step 1 [Description of step]<br/>
-       Instruction.
-
-3. Assignment statement:
-
-   - It is indicated by placing an arrow between the right-hand side and left-hand side of the statement and the variable receiving the value.
-   - Example:
-     - A <- 10
-
-4. If statement:
-
-   - This helps to add conditions in the algorithm.
-   - Example:
-     - if(condition)<br/>then this<br/>else
-
-5. Case statement:
-
-   - The case statement is used for multiple choice type solution.
-
-6. Repeat statement:
-
-   - It is used to create loops in the algorithm.
-     - While loop
-     - For loop
-   - Example:
-     - Repeat while (condition)
-
-7. Goto statement:
-
-   - This goto statement causes unconditional transfer of control to the step referenced.
-
-8. exit statement:
-   - It is used to terminate an algorithm.
-
-## Advantages of the Algorithm
-
-- It is a step-by-step representation of a real-life solution.
-- It is easier to understand.
-- It is not dependent on any programming language.
-- It can work as a blueprint for the program to develop.
-- By using an algorithm the problem is broken down into smaller parts hence it is easy for a programmer to convert it into an actual program.
-
-## Disadvantages of an Algorithm
-
-- It is time-consuming.
-- It is difficult to show branching and looping in an algorithm.
-- Big problems are difficult to solve using algorithms.
-
-## Example of an Algorithm
-
-SUM OF TWO NUMBERS
-
-Step 1: [Initialization]<br/>Take two inputs numbers from the user: a,b
-
-Step 2: [Compute Sum]<br/>Sum = a+b
-
-Step 3: [Print result]<br/> Print Sum
-
-step 4: [Finish]
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 6]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-6</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-6</guid>
+            <title><![CDATA[6 - Algorithm Analysis and Notations | DSA]]></title>
+            <link>https://dracodemy.tech/posts/6---algorithm-analysis-and-notations-dsa</link>
+            <guid>https://dracodemy.tech/posts/6---algorithm-analysis-and-notations-dsa</guid>
             <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Algorithm Analysis
@@ -3706,9 +3720,9 @@ step 4: [Finish]
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 7]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-7</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-7</guid>
+            <title><![CDATA[7 - Arrays | DSA]]></title>
+            <link>https://dracodemy.tech/posts/7---arrays-dsa</link>
+            <guid>https://dracodemy.tech/posts/7---arrays-dsa</guid>
             <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Arrays
@@ -3859,9 +3873,9 @@ int main(){
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 8]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-8</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-8</guid>
+            <title><![CDATA[8 - Operations on Array | DSA]]></title>
+            <link>https://dracodemy.tech/posts/8---operations-on-array-dsa</link>
+            <guid>https://dracodemy.tech/posts/8---operations-on-array-dsa</guid>
             <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Arrays Operations
@@ -3911,9 +3925,9 @@ Let's talk about operations that can be done on array in Data Structure.
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[Basics Data Structure & Algorithm - Lecture 9]]></title>
-            <link>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-9</link>
-            <guid>https://dracodemy.tech/posts/basics-data-structure-algorithm---lecture-9</guid>
+            <title><![CDATA[9 - Strings | DSA]]></title>
+            <link>https://dracodemy.tech/posts/9---strings-dsa</link>
+            <guid>https://dracodemy.tech/posts/9---strings-dsa</guid>
             <pubDate>Sat, 16 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[
 ## Strings

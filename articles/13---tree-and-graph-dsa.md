@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 13"
+title: "13 - Tree and Graph | DSA"
 date: 2024-01-05
 id: 22
 author: "Preet Suthar"

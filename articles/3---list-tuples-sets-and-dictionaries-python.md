@@ -1,5 +1,5 @@
 ---
-title: "3 - List, Tuples, Sets and Dictionaries - Python"
+title: "3 - List, Tuples, Sets and Dictionaries | Python"
 date: 2023-12-30
 id: 6
 author: "Preet Suthar"

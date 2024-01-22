@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 2"
+title: "2 - Types of Data Structure | DSA"
 date: 2023-08-29
 id: 11
 author: "Preet Suthar"

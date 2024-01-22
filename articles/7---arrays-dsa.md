@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 7"
+title: "7 - Arrays | DSA"
 date: 2023-09-11
 id: 16
 author: "Preet Suthar"

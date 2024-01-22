@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 5"
+title: "5 - Notations for Algorithm design | DSA"
 date: 2023-09-1
 id: 14
 author: "Preet Suthar"
@@ -53,20 +53,6 @@ tags:
 
 8. exit statement:
    - It is used to terminate an algorithm.
-
-## Advantages of the Algorithm
-
-- It is a step-by-step representation of a real-life solution.
-- It is easier to understand.
-- It is not dependent on any programming language.
-- It can work as a blueprint for the program to develop.
-- By using an algorithm the problem is broken down into smaller parts hence it is easy for a programmer to convert it into an actual program.
-
-## Disadvantages of an Algorithm
-
-- It is time-consuming.
-- It is difficult to show branching and looping in an algorithm.
-- Big problems are difficult to solve using algorithms.
 
 ## Example of an Algorithm
 

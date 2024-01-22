@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 6"
+title: "6 - Algorithm Analysis and Notations | DSA"
 date: 2023-09-07
 id: 15
 author: "Preet Suthar"

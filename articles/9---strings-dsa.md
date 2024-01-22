@@ -1,5 +1,5 @@
 ---
-title: "Basics Data Structure & Algorithm - Lecture 9"
+title: "9 - Strings | DSA"
 date: 2023-09-16
 id: 18
 author: "Preet Suthar"
