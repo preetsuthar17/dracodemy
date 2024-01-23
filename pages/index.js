@@ -114,6 +114,12 @@ export default function Home({ posts, tags }) {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
           crossorigin="anonymous"
         ></Script>
+        <Script
+          async
+          custom-element="amp-ad"
+          src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"
+        ></Script>
+
         <Navbar />
         <>
           <div id="blog-title" className="blog-div">
@@ -306,6 +312,17 @@ export default function Home({ posts, tags }) {
               </Link>
             </div>
           </div>
+          <amp-ad
+            width="100vw"
+            height="320"
+            type="adsense"
+            data-ad-client="ca-pub-2501084062179551"
+            data-ad-slot="3951934245"
+            data-auto-format="rspv"
+            data-full-width=""
+          >
+            <div overflow=""></div>
+          </amp-ad>
           <Footer />
         </>
       </Layout>

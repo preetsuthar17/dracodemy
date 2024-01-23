@@ -230,7 +230,9 @@ export default function Post({
           crossorigin="anonymous"
         ></Script>
 
-        <Script>(adsbygoogle = window.adsbygoogle || []).push({});</Script>
+        <Script id="adsense-script">
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </Script>
         <>
           <Navbar />
           <article id="post-top" className="container">

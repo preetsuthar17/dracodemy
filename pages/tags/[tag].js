@@ -82,10 +82,15 @@ const Tag = ({ blogs }) => {
         <meta name="robots" content="noindex" />
       </Head>
       <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
-          crossorigin="anonymous"
-        ></Script>
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
+        crossorigin="anonymous"
+      ></Script>{" "}
+      <Script
+        async
+        custom-element="amp-ad"
+        src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"
+      ></Script>
       <Navbar />
       <div id="blog-title" className="blog-div">
         <motion.div
@@ -105,14 +110,17 @@ const Tag = ({ blogs }) => {
         </motion.div>
 
         <div className="styled-hr"></div>
-
-        <h1
-          style={{
-            opacity: 0,
-          }}
+        <amp-ad
+          width="100vw"
+          height="320"
+          type="adsense"
+          data-ad-client="ca-pub-2501084062179551"
+          data-ad-slot="3951934245"
+          data-auto-format="rspv"
+          data-full-width=""
         >
-          Blogs tagged with {tag}
-        </h1>
+          <div overflow=""></div>
+        </amp-ad>
 
         <motion.div
           initial={{ opacity: 0, translateX: -100 }}
@@ -192,6 +200,17 @@ const Tag = ({ blogs }) => {
           </div>
         </motion.div>
       </div>
+      <amp-ad
+        width="100vw"
+        height="320"
+        type="adsense"
+        data-ad-client="ca-pub-2501084062179551"
+        data-ad-slot="3951934245"
+        data-auto-format="rspv"
+        data-full-width=""
+      >
+        <div overflow=""></div>
+      </amp-ad>
       <Footer />
     </>
   );
