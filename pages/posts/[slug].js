@@ -209,7 +209,11 @@ export default function Post({
             content="width=device-width, initial-scale=1.0"
           />
           <meta name="twitter:title" content="404 | Dracodemy 🚀" />
-          <meta name="subject" content="coding tutorials" />
+          <meta name="subject" content="coding tutorials" />{" "}
+          <meta
+            name="google-adsense-account"
+            content="ca-pub-2501084062179551"
+          />
           <meta name="robots" content="noindex" />
           <link rel="canonical" href="https://dracodemy.tech" />
         </Head>

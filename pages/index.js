@@ -96,6 +96,10 @@ export default function Home({ posts, tags }) {
             name="keywords"
             content="Preet Suthar, Front-end Developer, Portfolio, Blog, web development, preet, front end development, front-end developer, coding tutorials, programming tutorials, coding notes, Dracodemy"
           />
+          <meta
+            name="google-adsense-account"
+            content="ca-pub-2501084062179551"
+          />
           <meta name="author" content="Dracodemy" />
           <meta
             name="viewport"

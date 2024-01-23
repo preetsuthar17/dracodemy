@@ -38,7 +38,10 @@ const Tags = ({ tags }) => {
         />
         <meta name="author" content="Dracodemy" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="twitter:title" content="Tags | Dracodemy 🚀" />
+        <meta name="twitter:title" content="Tags | Dracodemy 🚀" />       <meta
+            name="google-adsense-account"
+            content="ca-pub-2501084062179551"
+          />
         <meta name="subject" content="coding tutorials" />
       </Head>
       <Navbar />

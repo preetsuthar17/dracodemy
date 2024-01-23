@@ -60,6 +60,7 @@ const Tag = ({ blogs }) => {
         <meta httpEquiv="content-language" content="en" />
         <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
         <meta property="og:title" content="Dracodemy" />{" "}
+        <meta name="google-adsense-account" content="ca-pub-2501084062179551" />
         <meta
           property="og:image"
           content="https://dracodemy.tech/dracodemy.png"
