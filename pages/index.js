@@ -7,6 +7,7 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 
+import Script from "next/script";
 const Footer = dynamic(() => import("@/src/components/footer"));
 const Navbar = dynamic(() => import("@/src/components/Navbar"));
 import Layout from "@/src/components/Layout";
@@ -108,6 +109,11 @@ export default function Home({ posts, tags }) {
           <meta name="twitter:title" content="Dracodemy" />
           <meta name="subject" content="coding tutorials" />
         </Head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
+          crossorigin="anonymous"
+        ></Script>
         <Navbar />
         <>
           <div id="blog-title" className="blog-div">

@@ -5,7 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 import { motion } from "framer-motion";
 import Head from "next/head";
-
+import Script from "next/script";
 import Footer from "../../src/components/footer";
 import Navbar from "@/src/components/Navbar";
 
@@ -81,6 +81,11 @@ const Tag = ({ blogs }) => {
         <meta name="subject" content="coding tutorials" />
         <meta name="robots" content="noindex" />
       </Head>
+      <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
+          crossorigin="anonymous"
+        ></Script>
       <Navbar />
       <div id="blog-title" className="blog-div">
         <motion.div

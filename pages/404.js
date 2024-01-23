@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 
 const Footer = dynamic(() => import("@/src/components/footer"));
 const Navbar = dynamic(() => import("@/src/components/Navbar"));
-
+import Script from "next/script";
 import { motion } from "framer-motion";
 
 import Head from "next/head";
@@ -53,6 +53,11 @@ export default function Custom404() {
           />
           <meta name="robots" content="noindex" />
         </Head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
+          crossorigin="anonymous"
+        ></Script>
         <Navbar />
         <div className="notFoundDiv">
           <div className="main_div">

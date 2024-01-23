@@ -217,6 +217,11 @@ export default function Post({
           <meta name="robots" content="noindex" />
           <link rel="canonical" href="https://dracodemy.tech" />
         </Head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
+          crossorigin="anonymous"
+        ></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></Script>
         <Script async src="https://js.stripe.com/v3/buy-button.js"></Script>
         <>
