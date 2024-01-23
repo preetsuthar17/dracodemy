@@ -4,7 +4,7 @@
         <title>dracodemy.tech</title>
         <link>dracodemy.tech</link>
         <description>Welcome to Dracodemy! A website to learn programming efficiently</description>
-        <lastBuildDate>Tue, 23 Jan 2024 08:54:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jan 2024 09:43:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -3416,6 +3416,31 @@ step 4: [Finish]
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[5 - Overview of process and threads]]></title>
+            <link>https://dracodemy.tech/posts/5---overview-of-process-and-threads</link>
+            <guid>https://dracodemy.tech/posts/5---overview-of-process-and-threads</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Overview of process and threads
+
+## Process
+
+    - Process is a program that is being executed
+    - Process don’t share memory, processes are isolated.
+    - Process takes more time for context switching.
+    - It takes more time for creation.
+
+## Thread
+
+    - Thread is a segment of process.
+    - They can terminate quickly.
+    - They can share memory.
+    - Threads is a entirely different execution.
+    - Thread is very fast in terms of context switching
+    - It takes very less time for creation compared to proces.
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[5 - String Processing and File Handling]]></title>
             <link>https://dracodemy.tech/posts/5---string-processing-and-file-handling</link>
             <guid>https://dracodemy.tech/posts/5---string-processing-and-file-handling</guid>
@@ -3893,6 +3918,52 @@ print(list1[2])
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[6 - Process Life Cycle]]></title>
+            <link>https://dracodemy.tech/posts/6---process-life-cycle</link>
+            <guid>https://dracodemy.tech/posts/6---process-life-cycle</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Process Life Cycle
+
+- When Process changes its states during it’s execution is called Process Life Cycle.
+- Process life cycle is basically entire cycle process goes through to execute itself.
+- Process Life Cycle contains multiple states of process that’s why it’s also known as Process States.
+- It contains following states,
+
+  - New
+  - Ready
+  - Running
+  - Waiting
+  - Terminated
+
+  ![Untitled](https://i.imgur.com/zvehtKF.png)
+
+### New
+
+- The new process which is being created.
+
+### Ready
+
+- Process being ready to be executed and assigned to processor.
+
+### Running
+
+- Process is executing.
+
+### Waiting
+
+- Waiting for some even to occur.
+- For example -
+  - Input/Output
+  - Error handling
+  - etc.
+
+### Terminated
+
+- Process is done executed and now it’s terminated by loading off from the processor.
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[7 - Arrays]]></title>
             <link>https://dracodemy.tech/posts/7---arrays</link>
             <guid>https://dracodemy.tech/posts/7---arrays</guid>
@@ -4043,6 +4114,76 @@ int main(){
 ### Output
 
 ![output](https://i.imgur.com/C78mFcp.png)
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[7 - Process Life Cycle]]></title>
+            <link>https://dracodemy.tech/posts/7---process-life-cycle</link>
+            <guid>https://dracodemy.tech/posts/7---process-life-cycle</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Process Control Block
+
+- process control block is basically a data structure that stores and manages information about specific processes.
+- It is also known as task control block because it’ll control the data and manage information of specific task.
+- It is associated with each processes in an operating system.
+- This is very important for process management as the data structuring for the processes is done in term of PCB.
+- it contains following information,
+
+### Process State
+
+- It displays current state of a process.
+- states such like waiting, ready, running or terminated.
+
+### Program Counter
+
+- It keeps address of next instruction that needs to be executed in process.
+
+### CPU Registers
+
+- It contains specific registers that are used by processes.
+
+### CPU Scheduling Information
+
+- It keeps information about next process or queue for executing programs.
+
+### Memory Management Information
+
+- The memory management information contains information for the page tables or the segment tables depending on the memory system used.
+
+### Accounting Information
+
+- It contains time limit, account numbers, amount of CPU used, process number etc.
+
+### I/O Status Information
+
+- It contains information about the Input/output devices used by process.
+
+  ![Untitled](https://i.imgur.com/6cz38kr.png)
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[8 - Context Switch]]></title>
+            <link>https://dracodemy.tech/posts/8---context-switch</link>
+            <guid>https://dracodemy.tech/posts/8---context-switch</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Context Switch
+
+- Context switching is method or technique of storing the state of current program and executing another program, and restoring the previous program from the same state when it was switched.
+- Basically it is method of storing current state of program so that it can be restored and later, and then loading the state of another process and run it.
+
+  ![Untitled](https://i.imgur.com/xGOWAdO.png)
+
+- Here is how it works,
+
+  - assume there are two process running p1 and p2, we first save the current state of p1 in the memory and then load the p2 then we can save the state of p2 and reload the state of p1.
+  - In simpler words it switching between processes without losing their state.
+
+- Triggers for Context Switching,
+  - Multitasking
+  - interrupt handling
+  - user and kernel mode switch
 ]]></description>
         </item>
         <item>
