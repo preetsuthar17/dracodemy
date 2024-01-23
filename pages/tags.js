@@ -6,6 +6,7 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 
 import Footer from "../src/components/footer";
+import Navbar from "@/src/components/Navbar";
 
 const Tags = ({ tags }) => {
   return (
@@ -40,6 +41,7 @@ const Tags = ({ tags }) => {
         <meta name="twitter:title" content="Tags | Dracodemy 🚀" />
         <meta name="subject" content="coding tutorials" />
       </Head>
+      <Navbar />
       <div
         className="project-div"
         style={{

@@ -17,7 +17,7 @@ $color_3: #aaaab5;
     }
     background-color: transparent;
     color: $color_2 !important;
-    font-family: "sofiapro", sans-serif;
+    font-family: "poppins", sans-serif;
     border: 2px solid #ffffff0c;
     backdrop-filter: blur(8px);
     padding: 1rem;
@@ -102,8 +102,8 @@ $color_3: #aaaab5;
 .blog-header {
   color: $color_1;
   transition: 0.4s ease-in-out !important;
-  font-size: 1.4rem;
-  font-weight: 100;
+  font-size: 1.3rem;
+  font-weight: 400;
   text-align: left;
 }
 .blog-title {
@@ -120,7 +120,7 @@ $color_3: #aaaab5;
   padding-top: 1rem;
   color: $color_1;
   opacity: 70%;
-  font-size: 1rem;
+  font-size: 15px;
   p {
     font-weight: 400;
     color: #40c9ff;
