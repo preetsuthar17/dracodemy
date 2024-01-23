@@ -224,6 +224,13 @@ export default function Post({
         ></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></Script>
         <Script async src="https://js.stripe.com/v3/buy-button.js"></Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2501084062179551"
+          crossorigin="anonymous"
+        ></Script>
+
+        <Script>(adsbygoogle = window.adsbygoogle || []).push({});</Script>
         <>
           <Navbar />
           <article id="post-top" className="container">
@@ -431,6 +438,7 @@ export default function Post({
                   style={{
                     color: "#aaa",
                     textAlign: "left",
+                    fontWeight: "500",
                   }}
                 >
                   Donate
@@ -446,6 +454,17 @@ export default function Post({
                   Secured by Stripe
                 </p>
               </div>
+              <ins
+                className="adsbygoogle"
+                style={{
+                  display: "block",
+                  textAlign: "center",
+                }}
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-2501084062179551"
+                data-ad-slot="6240537307"
+              ></ins>
               {toc.length > 0 && (
                 <div
                   className="tableOfContent"
@@ -503,7 +522,17 @@ export default function Post({
                   ),
                 }}
               />
-
+              <ins
+                className="adsbygoogle"
+                style={{
+                  display: "block",
+                  textAlign: "center",
+                }}
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-2501084062179551"
+                data-ad-slot="6240537307"
+              ></ins>
               <div className="post-top">
                 <Link href="#topPage">
                   <svg
