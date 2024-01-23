@@ -12,16 +12,16 @@ tags:
 
 ## Process
 
-    - Process is a program that is being executed
-    - Process don’t share memory, processes are isolated.
-    - Process takes more time for context switching.
-    - It takes more time for creation.
+  - Process is a program that is being executed
+  - Process doesn’t share memory, processes are isolated.
+  - Process takes more time for context switching.
+  - It takes more time for creation.
 
 ## Thread
 
-    - Thread is a segment of process.
-    - They can terminate quickly.
-    - They can share memory.
-    - Threads is a entirely different execution.
-    - Thread is very fast in terms of context switching
-    - It takes very less time for creation compared to proces.
+  - Thread is a segment of the process.
+  - They can terminate quickly.
+  - They can share memories.
+  - Threads is an entirely different execution.
+  - Thread is very fast in terms of context-switching
+  - It takes very little time for creation compared to process.
