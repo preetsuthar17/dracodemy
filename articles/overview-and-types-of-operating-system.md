@@ -1,5 +1,5 @@
 ---
-title: "1 - Overview and Types of Operating System"
+title: "Overview and Types of Operating System"
 date: 2024-01-21
 id: 27
 author: "Preet Suthar"

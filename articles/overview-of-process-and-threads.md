@@ -1,5 +1,5 @@
 ---
-title: "5 - Overview of process and threads"
+title: "Overview of process and threads"
 date: 2024-01-24
 id: 31
 author: "Preet Suthar"

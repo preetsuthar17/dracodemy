@@ -1,5 +1,5 @@
 ---
-title: "12 - Revision of Pointers and Structures"
+title: "Revision of Pointers and Structures"
 date: 2024-01-04
 id: 21
 author: "Preet Suthar"

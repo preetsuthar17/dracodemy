@@ -1,5 +1,5 @@
 ---
-title: "3 - Services of Operating System"
+title: "Services of Operating System"
 date: 2024-01-23
 id: 29
 author: "Preet Suthar"

@@ -1,5 +1,5 @@
 ---
-title: "5 - String Processing and File Handling"
+title: "String Processing and File Handling"
 date: 2024-01-02
 id: 9
 author: "Preet Suthar"

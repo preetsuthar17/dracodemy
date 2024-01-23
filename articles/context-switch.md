@@ -1,5 +1,5 @@
 ---
-title: "8 - Context Switch"
+title: "Context Switch"
 date: 2024-01-24
 id: 34
 author: "Preet Suthar"

@@ -1,5 +1,5 @@
 ---
-title: "10 - Stack and Queues"
+title: "Stack and Queues"
 date: 2023-09-20
 id: 19
 author: "Preet Suthar"

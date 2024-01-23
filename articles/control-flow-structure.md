@@ -1,5 +1,5 @@
 ---
-title: "2 - Control Flow Structure"
+title: "Control Flow Structure"
 date: 2023-12-29
 id: 3
 author: "Preet Suthar"

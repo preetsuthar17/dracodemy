@@ -1,5 +1,5 @@
 ---
-title: "3 - Database Integrity Constraints & Objects"
+title: "Database Integrity Constraints & Objects"
 date: 2024-01-11
 id: 5
 author: "Preet Suthar"

@@ -1,5 +1,5 @@
 ---
-title: "7 - Process Life Cycle"
+title: "Process Life Cycle"
 date: 2024-01-24
 id: 33
 author: "Preet Suthar"

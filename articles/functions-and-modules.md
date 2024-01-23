@@ -1,5 +1,5 @@
 ---
-title: "4 - Functions and Modules"
+title: "Functions and Modules"
 date: 2024-01-01
 id: 7
 author: "Preet Suthar"

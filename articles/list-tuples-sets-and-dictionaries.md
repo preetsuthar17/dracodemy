@@ -1,5 +1,5 @@
 ---
-title: "3 - List, Tuples, Sets and Dictionaries"
+title: "List, Tuples, Sets and Dictionaries"
 date: 2023-12-30
 id: 6
 author: "Preet Suthar"

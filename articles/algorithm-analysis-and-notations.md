@@ -1,5 +1,5 @@
 ---
-title: "6 - Algorithm Analysis and Notations"
+title: "Algorithm Analysis and Notations"
 date: 2023-09-07
 id: 15
 author: "Preet Suthar"

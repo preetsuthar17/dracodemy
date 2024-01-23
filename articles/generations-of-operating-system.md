@@ -1,5 +1,5 @@
 ---
-title: "4 - Generations of Operating System"
+title: "Generations of Operating System"
 date: 2024-01-24
 id: 30
 author: "Preet Suthar"

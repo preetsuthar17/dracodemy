@@ -1,5 +1,5 @@
 ---
-title: "2 - Goals of Operating System"
+title: "Goals of Operating System"
 date: 2024-01-22
 id: 28
 author: "Preet Suthar"

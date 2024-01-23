@@ -1,5 +1,5 @@
 ---
-title: "2 - SQL In built functions and Joins"
+title: "SQL In built functions and Joins"
 date: 2024-01-10
 id: 4
 author: "Preet Suthar"

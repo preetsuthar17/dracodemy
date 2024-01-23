@@ -1,5 +1,5 @@
 ---
-title: "2 - Types of Data Structure"
+title: "Types of Data Structure"
 date: 2023-08-29
 id: 11
 author: "Preet Suthar"
