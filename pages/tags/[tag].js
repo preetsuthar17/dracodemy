@@ -101,7 +101,14 @@ const Tag = ({ blogs }) => {
         >
           <div className="blog-headers">
             <div className="blog-title">
-              <h1>&#47;{tag}</h1>
+              <h1
+                style={{
+                  color: "#f0edf3",
+                  fontFamily: "Poppins, sans-serif",
+                }}
+              >
+                &#47;{tag}
+              </h1>
             </div>
             <div className="blog-header-text">
               <p>Posts tagged with "{tag}"</p>

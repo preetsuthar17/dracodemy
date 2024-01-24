@@ -1,6 +1,6 @@
 $color_1: var(--heading-color);
-$color_2: #666666;
-$color_3: var(--font-color);
+$color_2: #f0edf3d2;
+$color_3: #f0edf3;
 $color_4: #17b6ff;
 $color_5: rgb(200, 200, 200);
 $font-family_1: "JetBrains Mono", firecode;
@@ -39,8 +39,8 @@ $background-color_1: #180d23;
 
 .title {
   font-size: 37px;
-  color: $color_1;
-  font-family: var(--heading-font-family);
+  color: #f0edf3;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -80,19 +80,16 @@ $background-color_1: #180d23;
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 1.9rem;
-    font-weight: normal;
     color: $color_3;
   }
   h2 {
     margin-top: 40px;
     margin-bottom: 20px;
-    font-weight: normal;
     color: $color_3;
   }
   h3 {
     margin-top: 40px;
     margin-bottom: 20px;
-    font-weight: normal;
     color: $color_3;
   }
   h4 {
@@ -215,11 +212,11 @@ $background-color_1: #180d23;
   width: 20rem;
   top: 120px;
   color: $color_3;
-  max-height: 14rem;
-  border: 1px solid rgba(124, 104, 238, 0.626);
-  background-color: rgba(124, 104, 238, 0.087);
+  max-height: 12.8rem;
+  outline: 2px solid rgba(124, 104, 238, 0.496);
+  background-color: #18151d;
   padding: 1rem 0 1rem 1rem;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: auto;
   line-height: 1.6;
   word-wrap: break-word;
@@ -250,6 +247,7 @@ $background-color_1: #180d23;
 
   a {
     color: $color_4;
+    font-weight: 500;
     text-decoration: none;
     font-size: 15px;
     &:hover {
@@ -347,7 +345,7 @@ blockquote {
 
 .donateButton {
   background-color: #1e1e1e;
-  color: #aaa;
+  color: #f0edf3;
   border-radius: 6px;
   border: 1px solid #cccccc16;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,

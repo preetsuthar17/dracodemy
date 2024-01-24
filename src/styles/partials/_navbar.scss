@@ -1,13 +1,13 @@
 .navbar {
-  background-color: #b7acf6;
+  background-color: #18151d;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 3px solid rgba(124, 104, 238, 0.751);
-  border-left: 3px solid rgba(124, 104, 238, 0.751);
-  border-right: 3px solid rgba(124, 104, 238, 0.751);
+  border-bottom: 3px solid rgba(124, 104, 238, 0.311);
+  border-left: 3px solid rgba(124, 104, 238, 0.311);
+  border-right: 3px solid rgba(124, 104, 238, 0.311);
   margin: 0rem 0 1rem 0;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 40px 40px;
   .navbar_brand {
     span {
       position: absolute;
@@ -23,7 +23,7 @@
       list-style-type: none;
       li {
         a {
-          color: black;
+          color: white;
           text-decoration: none;
           font-size: 18px;
           padding: 0.4rem 0.8rem;

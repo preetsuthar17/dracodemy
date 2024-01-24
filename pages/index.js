@@ -130,7 +130,15 @@ export default function Home({ posts, tags }) {
               transition={{ duration: 0.5 }}
             >
               <div className="blog-headers showcase-headers">
-                <h1 className="h2-color ">Dracodemy</h1>
+                <h1
+                  style={{
+                    color: "#f0edf3",
+                    fontWeight: "bold",
+                    fontFamily: "Poppins, sans-serif",
+                  }}
+                >
+                  Dracodemy
+                </h1>
                 <p className="p-color">hello 👋, what do you want to learn?</p>
                 <div className="blog-search-input">
                   <input

@@ -100,10 +100,10 @@ $color_3: #aaaab5;
   }
 }
 .blog-header {
-  color: $color_1;
+  color: #f0edf3;
   transition: 0.4s ease-in-out !important;
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
 }
 .blog-title {
@@ -118,7 +118,7 @@ $color_3: #aaaab5;
 .blog-text {
   text-align: left;
   padding-top: 1rem;
-  color: $color_1;
+  color: #f0edf3;
   opacity: 70%;
   font-size: 15px;
   p {
@@ -172,7 +172,7 @@ $color_3: #aaaab5;
     z-index: 99;
     transition: 0.3s ease-in-out;
     text-decoration: none;
-    color: #ccc;
+    color: #f0edf3;
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -181,13 +181,13 @@ $color_3: #aaaab5;
     }
   }
   .blog-read-link {
-    background-color: red;
     width: fit-content;
     padding: 0.4rem 0.8rem;
     margin: 1rem 0 0 0;
     background-color: #cccccc10;
     border-radius: 5px;
     display: flex;
+    font-size: 14px;
     align-items: center;
     border: 1px solid #cccccc2a;
   }
@@ -205,7 +205,7 @@ $color_3: #aaaab5;
     padding: 1rem;
   }
   .blog-date {
-    font-size: 1.1rem;
+    color: #f0edf3;
   }
   .blog-tag {
     position: absolute;
@@ -249,6 +249,7 @@ $color_3: #aaaab5;
 .post-tag {
   background-color: #121212;
   width: fit-content;
+  color: #f0edf3;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
   border: 1px solid #cccccc16;
@@ -266,6 +267,7 @@ $color_3: #aaaab5;
   width: fit-content;
   border: 1px solid #cccccc16;
   padding: 0.5rem 0.7rem;
+  color: #f0edf3;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
