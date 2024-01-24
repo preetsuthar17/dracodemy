@@ -1,26 +1,20 @@
 import Image from "next/image";
 import dracodemy_logo from "../../public/dracodemy.svg";
 import Link from "next/link";
-
+import {
+  SignIn,
+  SignInButton,
+  SignOutButton,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div
-          className="navbar_brand"
-     
-        >
+        <div className="navbar_brand">
           <Link href="/">
             <Image src={dracodemy_logo} width={50} alt="Dracodemy" />
-            <span
-              style={
-                {
-                  // opacity: "0",
-                }
-              }
-            >
-              Home
-            </span>
           </Link>
         </div>
         <div className="navbar_links">
@@ -28,6 +22,12 @@ const Navbar = () => {
             <li>
               <Link href="/">Home</Link>
             </li>
+            <li>
+              <UserButton afterSignOutUrl="/" />
+            </li>
+            <SignedOut>
+              <SignInButton className="sign-in-btn" afterSignInUrl="/dashboard" mode="modal" />
+            </SignedOut>
           </ul>
         </div>
       </nav>

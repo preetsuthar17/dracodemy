@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.5",
     "@supabase/supabase-js": "^2.26.0",
     "@types/gsap": "^3.0.0",
     "@types/react": "^18.2.21",

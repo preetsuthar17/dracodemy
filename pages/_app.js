@@ -9,8 +9,10 @@ import "../src/styles/partials/_404.scss";
 import "../src/styles/partials/_CourseSnackBar.scss";
 import "../src/styles/partials/_navbar.scss";
 import "../src/styles/partials/_showcase.scss";
-import Layout from "@/src/components/Layout";
 
+import { ClerkProvider } from "@clerk/nextjs";
+
+import Layout from "@/src/components/Layout";
 import { motion } from "framer-motion";
 
 export default function App({ Component, pageProps }) {
@@ -22,8 +24,9 @@ export default function App({ Component, pageProps }) {
       transition={{ duration: 1.3, transition: "ease-in" }}
     >
       <Layout>
-        <></>
-        <Component {...pageProps} />
+        <ClerkProvider {...pageProps}>
+          <Component {...pageProps} />
+        </ClerkProvider>
       </Layout>
     </motion.div>
   );

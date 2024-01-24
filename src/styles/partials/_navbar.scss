@@ -20,6 +20,9 @@
   }
   .navbar_links {
     ul {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
       list-style-type: none;
       li {
         a {
@@ -34,6 +37,18 @@
           }
         }
       }
+    }
+    .sign-in-btn {
+      border: none;
+      cursor: pointer;
+      font-size: 17px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
+      padding: 6.3px 20px;
+      background-color: rgb(120, 104, 238);
+      color: white;
+      font-weight: medium;
+      border-radius: 4px;
     }
   }
 }
