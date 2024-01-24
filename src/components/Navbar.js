@@ -26,7 +26,11 @@ const Navbar = () => {
               <UserButton afterSignOutUrl="/" />
             </li>
             <SignedOut>
-              <SignInButton className="sign-in-btn" afterSignInUrl="/dashboard" mode="modal" />
+              <SignInButton
+                className="sign-in-btn"
+                afterSignInUrl="/"
+                mode="modal"
+              />
             </SignedOut>
           </ul>
         </div>
