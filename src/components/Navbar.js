@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" id="topPage">
         <div className="navbar_brand">
           <Link href="/">
             <Image src={dracodemy_logo} width={50} alt="Dracodemy" />
