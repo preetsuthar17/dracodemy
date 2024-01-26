@@ -10,7 +10,7 @@ tags:
 
 In this lecture we're going to cover basic about Types of Data Structure.
 
-![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/15e9c195-64ec-4714-ba22-18e74a4e2af0)
+![image](https://i.imgur.com/J7TBGCd.png)
 
 ## Types
 
@@ -61,31 +61,33 @@ There are many types of Data Structure but in this lesson we're going to talk ab
   1. Linear Data Structure:
 
      - Array:
+
        - It is a collection of similar kinds of data.
+
      - Stack:
 
        - In data structure, insertion and deletion are performed at one end only.
        - It is also known as LIFO [Last in First out]
 
-       ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/f8069ecb-ceec-4d7f-a481-4573acdd28ab)
+       ![image](https://i.imgur.com/pWHAIpd.png)
 
      - Queue:
 
        - In data structure, insertion at one end and deletion at the other end.
        - It is also known as FIFO [First in First out]
-         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/58b951bd-35bf-4675-9539-51b6e723ba3f)
+         ![image](https://i.imgur.com/eXrT9xZ.png)
 
      - List:
        - A list can be defined as a collection of variables of a number of items.
-         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/1a17c6da-322e-426a-81fd-465b924b38f8)
+         ![image](https://i.imgur.com/KKmx9Hq.png)
 
 ## 2. Non-linear Data Structure
 
 - Tree: [We'll learn more about this in upcoming lectures]
-  ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/9ed3cd66-8dae-407a-90ab-d54c3daec6fd)
+  ![image](https://i.imgur.com/Cmm9z7A.png)
 
 - Graph:
   - It is a collection of vertices (Node) and edges.
-    ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/2682c258-a635-4baf-bff4-fc279b2bc3d9)
+    ![image](https://i.imgur.com/DSqaVtk.png)
 
 > More details will be covered in upcoming lectures.
