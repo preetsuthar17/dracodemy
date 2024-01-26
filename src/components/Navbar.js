@@ -1,13 +1,7 @@
 import Image from "next/image";
 import dracodemy_logo from "../../public/dracodemy.svg";
 import Link from "next/link";
-import {
-  SignIn,
-  SignInButton,
-  SignOutButton,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
+
 const Navbar = () => {
   return (
     <>
@@ -22,16 +16,6 @@ const Navbar = () => {
             <li>
               <Link href="/">Home</Link>
             </li>
-            <li>
-              <UserButton afterSignOutUrl="/" />
-            </li>
-            <SignedOut>
-              <SignInButton
-                className="sign-in-btn"
-                afterSignInUrl="/"
-                mode="modal"
-              />
-            </SignedOut>
           </ul>
         </div>
       </nav>
