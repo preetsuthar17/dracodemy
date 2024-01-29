@@ -4,7 +4,7 @@
         <title>dracodemy.tech</title>
         <link>dracodemy.tech</link>
         <description>Welcome to Dracodemy! A website to learn programming efficiently</description>
-        <lastBuildDate>Thu, 25 Jan 2024 08:42:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jan 2024 15:06:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -257,6 +257,120 @@ int main(){
 ### Output
 
 ![output](https://i.imgur.com/C78mFcp.png)
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Basic architecture of Unix/Linux]]></title>
+            <link>https://dracodemy.tech/posts/basic-architecture-of-unix-linux</link>
+            <guid>https://dracodemy.tech/posts/basic-architecture-of-unix-linux</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Basic architecture of Unix/Linux
+
+- Basic Linux architecture consist these components,
+
+  - Shell
+  - Kernel
+  - Application
+
+  ![Untitled](https://i.imgur.com/lfAOxk1.png)
+
+### Kernel -
+
+- The kernel is base of UNIX operating system because entire system is managed through the kernel.
+- All the major actions of Unix operating system are handled by kernel.
+- It handles entire system that’s why it’s heart and base of the operating system.
+
+### Shell -
+
+- The shell is an interface among kernel and user.
+- Basically Shell is command line in UNIX operating system which is used to various Linux commands to perform various actions.
+- It is graphical user interface for terminal in UNIX.
+
+### Applications -
+
+- They are responsible to perform tasks and manage the operating system via user interface.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Basic linux commands pwd, cd, mdkir, etc.]]></title>
+            <link>https://dracodemy.tech/posts/basic-linux-commands-pwd-cd-mdkir-etc</link>
+            <guid>https://dracodemy.tech/posts/basic-linux-commands-pwd-cd-mdkir-etc</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+- Commands: pwd, cd, mkdir, rmdir, ls, cat, cp, rm, mv, wc, split, cmp, comm, diff, head, tail, grep, sort
+
+## pwd
+
+- Print working directory - shows current directory you’re located in.
+
+## cd
+
+- Change directory - navigate to another directory.
+
+## mkdir
+
+- Make directory - create a new folder.
+
+## rmdir
+
+- Remove directory - delete an empty folder.
+
+## ls
+
+- List - view content of current directory.
+
+## cat
+
+- view content of a file and print to output.
+
+## cp
+
+- Copy file - make an exact copy.
+
+## rm
+
+- Remove file - delete an file.
+
+## mv
+
+- Move or rename file or folder.
+
+## wc
+
+- Word count or line count or characters count in a file.
+
+## split
+
+- Split a file into smaller parts.
+
+## cmp
+
+- Compare two files.
+
+## comm
+
+- Compare files line-by-line and shows only matching or unique lines.
+
+## diff
+
+- Compare files and show line by line difference between them.
+
+## head
+
+- Prints first parts of a file.
+
+## tail
+
+- Prints last parts of a file.
+
+## grep
+
+- Prints lines matching a pattern.
+
+## sort
+
+- Sorts lines of text alphabetically or numerically.
 ]]></description>
         </item>
         <item>
@@ -1062,6 +1176,105 @@ CREATE INDEX index_name ON table_name;
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[Directory Structures]]></title>
+            <link>https://dracodemy.tech/posts/directory-structures</link>
+            <guid>https://dracodemy.tech/posts/directory-structures</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+- There are three types of three types of file directory structure,
+  - Single-level Directory
+  - Two-level Directory
+  - Tree-Structured Directory
+
+## Single level directory -
+
+- In single level directory all files are stored in a single directory.
+- There are no sub-folders.
+- This directory is maintained for all the users.
+  ![Untitled](https://i.imgur.com/2NdiTyA.png)
+- Advantages -
+  - Simple to understand the directory.
+  - Easier to implement.
+- Disadvantages -
+  - Hard to organize files logically.
+  - No control on group of files.
+  - Not efficient for large amount of number of files.
+
+## Two-level Directory -
+
+- There are two directories,
+  - Root Directory
+  - Sub Directory
+- Files can exist in the root folder or any sub folders.
+- Sub directories help group related files into folders.
+  ![Untitled](https://i.imgur.com/tBopD2v.png)
+- It allows each user to keep their files separately inside their own directory.
+- It allows to use the same name for files but under different user directories.
+- Advantages -
+  - Organize more files by grouping related files into sub folders.
+  - Find files faster by reducing the files searched through.
+- Disadvantages -
+  - Not efficient for large files systems.
+
+## Tree-Structured Directory -
+
+- Tree structured directory allows user to make more depth directories.
+- We can create more than 2 sub-directories.
+- It can support large numbers of files all over.
+- File can exists on any level subdirectory.
+- A user can access a file of its own user directory with a shorter path than the other user
+  ![Untitled](https://i.imgur.com/vzkfRdZ.png)
+- Advantages -
+  - Very very efficient to manage extremely large files systems.
+  - Flexible way to group related files/folders.
+  - Find files faster by logical classifications.
+- Disadvantages -
+  - Harder to implement tree data structures.
+  - Navigations can get complex deep down the hierarchy.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Disk Structure]]></title>
+            <link>https://dracodemy.tech/posts/disk-structure</link>
+            <guid>https://dracodemy.tech/posts/disk-structure</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Disk Structure
+
+## Physical Structure of a Disk
+
+- here are the list of components a disk has,
+
+### Platters -
+
+- A hard disk contains round metal plates which spins rapidly is called **platters.**
+
+### Spindles -
+
+- There is a rod in the center that spins all the platters together and that is called **Spindle.**
+
+### Read/Write Head -
+
+- On each side of every platter there is an arm with Read/Write head on the end.
+
+### Actuator arms -
+
+- These arms moves the head from the outer edge to inner edge of the platters while they spin. This allows the heads to reach any location to read or write the data.
+
+### Tracks -
+
+- Platters inside the hard disk spins continuously around which form imaginary circles from center to edge of each platter which are called **tracks.**
+
+### Sectors -
+
+- The tracks are further divided into tiny simple arcs which are called **Sectors.**
+
+### Cylinders -
+
+- The vertical positions where the heads are cutting across all the platters is called a **Cylinder.**
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[Dynamic Memory Allocation]]></title>
             <link>https://dracodemy.tech/posts/dynamic-memory-allocation</link>
             <guid>https://dracodemy.tech/posts/dynamic-memory-allocation</guid>
@@ -1127,6 +1340,192 @@ ptr = realloc(ptr, new_size)
 ```c
 free(ptr)
 ```
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Editing files with vi/vim, gedit, gcc]]></title>
+            <link>https://dracodemy.tech/posts/editing-files-with-vi-vim-gedit-gcc</link>
+            <guid>https://dracodemy.tech/posts/editing-files-with-vi-vim-gedit-gcc</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## vi/vim -
+
+- It is visual text editor built in for Unix/Linux system.
+- It does navigation just with keyboard.
+- Allows functionality like Undo/Redo/copy/Paste/Cut etc.
+- It supports regular expressions, search/replace etc.
+- Completely managed with keyboard.
+
+## gedit -
+
+- gedit is more user-friendly graphical editors.
+- Graphical open-source text editor using GTK toolkit.
+- It has simple interface for basic text editing.
+- It has features like syntax highlighting, line numbers.
+- It allows to add plugins like spell checker.
+- It is easy to use.
+
+## gcc -
+
+- It is GNU compiler that include C/C++ compilers.
+- gcc is used to build executable programs for the code.
+- Compile source to executable files.
+
+```bash
+gcc source.c
+```
+
+- gcc focuses on compiling than modifying code.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[File Allocation methods]]></title>
+            <link>https://dracodemy.tech/posts/file-allocation-methods</link>
+            <guid>https://dracodemy.tech/posts/file-allocation-methods</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## File Allocation methods
+
+There are two methods for file allocation,
+
+- Contiguous Allocation
+- Non-Contiguous Allocation
+
+## Contiguous allocation
+
+- In contiguous file allocation, the block is allocated in such manner that all the allocated blocks in the hard disk are adjacent.
+- Assuming that a file need `n` number of blocks in the hard disk and the file begins with a block at position `x`, then next block to be assigned to it will be `x+1, x+2, x+3,...,x+n-1` so that they are in contiguous manner.
+- The table of contiguous allocation contains these 4 information.
+- File Name, Starting point, Length, and Total Allocated Blocks.
+  ![Untitled](https://i.imgur.com/REqafFP.png)
+- Advantages -
+  - It is very easy to implement.
+  - There is minimum amount of seek time.
+  - The disk head movement is minimum.
+  - Memory access is faster
+  - It supports sequential as well as well direct access.
+- Disadvantages -
+  - At the time of creation, the file size must be initialized.
+  - As it is pre-initialized, the size cannot increase.
+  - Possibility of internal or external disk fragmentation.
+
+## Linked allocation
+
+- Also known has Non-Contiguous allocation.
+- The linked allocation overcomes the drawback of the contiguous file allocation.
+- The file we store on the hard disk is stored in scattered manner according to the space available on the hard disk.
+- So the name suggests linked allocation, it uses pointers to point to the next block of the same file, so therefore each file block also stores the pointer to the next block.
+  ![Untitled](https://i.imgur.com/Bc780BQ.png)
+  - Here as you can see in the image each block in the memory has it’s own particular address which actually stores the information of file.
+- In the linked allocation table we store some basic information like, File, Starting point and Ending point.
+- The OS will search from starting point to ending point entirely and if it finds empty block it can make use of those empty block in memory.
+- Now because the allocation is linked in the memory it won’t need to store data in contiguous manner. data can be stored randomly in memory.
+- Advantages -
+  - There is no external fragmentation.
+  - The directory entry just needs the address of starting block,
+  - The memory is not needed in contiguous form.
+- Disadvantages -
+  - It does not support random access or direct access.
+  - If pointers are affected so the disk blocks are also affected.
+  - Extra space is required for pointers in the block
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[File Attributes]]></title>
+            <link>https://dracodemy.tech/posts/file-attributes</link>
+            <guid>https://dracodemy.tech/posts/file-attributes</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## File Operations -
+
+- File operations are used to manage files in operating system.
+- Here are some file operations.
+
+### Open File -
+
+- create - Creates new file.
+- open - Opens existing file or creates new file.
+
+### Read/Write Files -
+
+- read - Reads data from the file.
+- write - Write new given data in the file.
+
+### Close Files -
+
+- close - closes open files.
+
+### Delete Files -
+
+- remove - Delete files. File must not be open when deleting.
+
+### Modify Metadata -
+
+- truncate - truncates(clears) file to specified length.
+- chmod - Allows to change the permission of files like readable/writeable.
+
+### Status/Info -
+
+- stat - Get file attributes/metadata like permissions, size, timestamps, etc.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[File Protection]]></title>
+            <link>https://dracodemy.tech/posts/file-protection</link>
+            <guid>https://dracodemy.tech/posts/file-protection</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Protection
+
+- Protection in file system means safety from improper access.
+- Protection in file system is required when the file is being shared among multiple system or users.
+- Some files need to be shared among all users while others need to be shared among limited users.
+- To allow limited sharing we can limit the access for specific users to the file system. which means we can add permissions to the file systems for users.
+- Here are several operations on files that can be controlled,
+  - Read - Read a file.
+  - Write - Write a file.
+  - Execute - Load the file and execute file.
+  - Append - Add information at the end of the file.
+  - Delete - Free up the space allocated to a file.
+- There are two most common ways to limit file access,
+
+## Password -
+
+        - User choose or get assigned password to authenticate their identity.
+        - User has to provide password to login while accessing protected files/directories.
+        - OS verifies password and grants access if valid.
+        - This Provides user-level access control on file.
+
+## Access Control -
+
+          - Files and resources have access control list specifying access rights.
+          - Access rights indicates users allowed and type of access given (e.g. read, write)
+          - Permissions can be set at user or all users level in many file systems.
+          - This is more advance way to control access and permissions for different users.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[File Types]]></title>
+            <link>https://dracodemy.tech/posts/file-types</link>
+            <guid>https://dracodemy.tech/posts/file-types</guid>
+            <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## File Types
+
+    - Type of files can be categorized in this categories,
+        ### Regular Files -
+            - Contains user information.
+            - Very common type of files
+        ### Directories -
+            - These are containers for sub directories.
+            - Used to manage other files and sub-directories.
+            - Dictionaries are also considered as files.
+        ### Character Special Files
+            - These files are related to Input/output.
+            - Used to model serial I/O devices such as terminals and printers.
+        ### Block Special Files
+            - These files are also related to Input/output.
+            - Used to model  block I/O devices such as devices and printers.
 ]]></description>
         </item>
         <item>
@@ -2548,7 +2947,7 @@ this -> m = 10;
 - When a lot of data is processed returns some details which are called "information"
 - It is created in the form of data.
 
-![Diagram](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/50db56ac-6411-45eb-97cd-9e7f0e87e63b)
+![Diagram](https://i.imgur.com/lmQsEDc.png)
 
 ### Cell
 
@@ -2568,7 +2967,7 @@ The specific location in memory where data can be stored is called a "Cell".
 
 - Collection of records
 
-![Diagram](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/53cfecb2-7f4c-49f7-bc35-ae74c3deaa6e)
+![Diagram](https://i.imgur.com/ie2aCwl.png)
 
 ## Advantages of Data Structure
 
@@ -2765,6 +3164,54 @@ WhERE id = 3;
 ]]></description>
         </item>
         <item>
+            <title><![CDATA[Introduction to shell and commands]]></title>
+            <link>https://dracodemy.tech/posts/introduction-to-shell-and-commands</link>
+            <guid>https://dracodemy.tech/posts/introduction-to-shell-and-commands</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Introduction to shell and commands
+
+## Shell -
+
+- Shell is user interface which connects user and kernel and helps user to perform tasks and manage the system through it.
+- Shell is basically command line interface to manage the systems.
+- It takes commands through user and runs the functions of kernels.
+- The Shell can be differentiated in two types,
+  - Command line shell -
+  - These shell runs the command in terminal and displays the output in terminal itself.
+  - Graphical user interface -
+  - These shell execute the process provided by user in graphical way and displays output in graphical way too
+- There are few types of Shell which are listed below,
+  - Korn Shell
+  - Bourne Shell
+  - C Shell
+  - POSIX Shell
+
+## Shell scripts -
+
+- Shell are usually very interactive which means they accepts commands as input from the users and execute them.
+- However sometimes user want to execute multiple commands at once that’s when we can create shell scripts and put bunch of commands in it and execute the script.
+- Shell script file ends with `.sh` extension.
+- Here is small example of shell script,
+
+```bash
+myScript.sh
+
+echo "Hello world!"
+```
+
+- Now to execute this file we can run,
+
+```bash
+sh myScript.sh
+OR
+bash myScript.sh
+OR
+./myScript.sh
+```
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[Linked Lists]]></title>
             <link>https://dracodemy.tech/posts/linked-lists</link>
             <guid>https://dracodemy.tech/posts/linked-lists</guid>
@@ -2893,6 +3340,23 @@ WhERE id = 3;
   - Linked list is used to create media browsing system allowing to create next and previous button to navigate media.
 - Dynamic memory allocation -
   - Linked list doesn’t require reallocation of memory, this makes it useful in systems where amount of data to be stored can’t be predicted ahead of time.
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Linux Introduction]]></title>
+            <link>https://dracodemy.tech/posts/linux-introduction</link>
+            <guid>https://dracodemy.tech/posts/linux-introduction</guid>
+            <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+## Linux Introduction
+
+- Linux is free and open source operating system which means it’s code can be inspected and edited.
+- It supports programming language like C, C++, Python and Java.
+- It’s multi-user design allows multiple user to access system resources.
+- It has User/group permission manager to limit the access for users.
+- I has universal package manager pre-installed for updating and installing applications.
+- It has variety of tools available for editing, audio, scripting or programming within its store.
+- Since it’s open source it provides very strong protection against viruses and malware.
 ]]></description>
         </item>
         <item>
@@ -6180,7 +6644,7 @@ therefore, swap-in and swap-out will take total 4000 milliseconds.
             <description><![CDATA[
 In this lecture we're going to cover basic about Types of Data Structure.
 
-![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/15e9c195-64ec-4714-ba22-18e74a4e2af0)
+![image](https://i.imgur.com/J7TBGCd.png)
 
 ## Types
 
@@ -6231,32 +6695,34 @@ There are many types of Data Structure but in this lesson we're going to talk ab
   1. Linear Data Structure:
 
      - Array:
+
        - It is a collection of similar kinds of data.
+
      - Stack:
 
        - In data structure, insertion and deletion are performed at one end only.
        - It is also known as LIFO [Last in First out]
 
-       ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/f8069ecb-ceec-4d7f-a481-4573acdd28ab)
+       ![image](https://i.imgur.com/pWHAIpd.png)
 
      - Queue:
 
        - In data structure, insertion at one end and deletion at the other end.
        - It is also known as FIFO [First in First out]
-         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/58b951bd-35bf-4675-9539-51b6e723ba3f)
+         ![image](https://i.imgur.com/eXrT9xZ.png)
 
      - List:
        - A list can be defined as a collection of variables of a number of items.
-         ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/1a17c6da-322e-426a-81fd-465b924b38f8)
+         ![image](https://i.imgur.com/KKmx9Hq.png)
 
 ## 2. Non-linear Data Structure
 
 - Tree: [We'll learn more about this in upcoming lectures]
-  ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/9ed3cd66-8dae-407a-90ab-d54c3daec6fd)
+  ![image](https://i.imgur.com/Cmm9z7A.png)
 
 - Graph:
   - It is a collection of vertices (Node) and edges.
-    ![image](https://github.com/preetsuthar17/basic-DSA-notes/assets/75468116/2682c258-a635-4baf-bff4-fc279b2bc3d9)
+    ![image](https://i.imgur.com/DSqaVtk.png)
 
 > More details will be covered in upcoming lectures.
 ]]></description>
