@@ -39,13 +39,13 @@ const Footer = () => {
         </div>
         <div className="footer_links">
           <div className="tutorials_links">
-            <p>Programming Tutorials</p>
+            <p>Tutorials</p>
             <Link href="/tags/DSA%20Tutorial">DSA Tutorials</Link>
             <Link href="/tags/OS%20Tutorial">OS Tutorials</Link>
             <Link href="/tags/RDBMS%20Tutorial">RDBMS Tutorials</Link>
           </div>
           <div className="languages_links">
-            <p>Programming Languages</p>
+            <p>Languages</p>
             <Link href="/tags/Python%20Tutorial">Python</Link>
           </div>
         </div>
